@@ -1,23 +1,25 @@
+import json
+
 from selenium import webdriver
 import time
 
 
 class Parser:
-    def __init__(self):
-        self.options = webdriver.EdgeOptions()
-        self.options.use_chromium = True
-        self.options.add_argument("headless")
-        self.options.add_argument("disable-gpu")
-        self.urls = {"en": "https://www.pathofexile.com/trade/about",
-                     "ru": "https://ru.pathofexile.com/trade/about"}
-        self.driver = webdriver.Edge(executable_path="msedgedriver.exe", options=self.options)
-        self.langs = ["en", "ru"]
-        self.result_dic = {"League": "Sanctum"}
+    options = webdriver.EdgeOptions()
+    options.use_chromium = True
+    options.add_argument("headless")
+    options.add_argument("disable-gpu")
+    urls = {"en": "https://www.pathofexile.com/trade/about",
+            "ru": "https://ru.pathofexile.com/trade/about"}
+    driver = webdriver.Edge(executable_path="msedgedriver.exe", options=options)
+    langs = ["en", "ru"]
+    result_dic = {"League": "Sanctum"}
 
     def parse(self):
         """
         Parsing about page on PoE trade site
         """
+        print('wait...')
         for lang in self.langs:
             self.result_dic[lang] = {}
             self.driver.get(url=self.urls[lang])
@@ -48,6 +50,16 @@ class Parser:
                         if any(word in blocked_words for word in item_alt_name):
                             continue
                         self.result_dic[lang][category_name].update({item_name: item_alt_name})
+        self.driver.close()
+        self.driver.quit()
+        print('done')
+
+    def dict_to_json(self):
+        with open("items.json", "w", encoding="utf-8") as file:
+            json.dump(self.result_dic, file, indent=4)
 
 
+print(Parser().result_dic)
 Parser().parse()
+print(Parser().result_dic)
+Parser().dict_to_json()
