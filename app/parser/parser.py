@@ -59,7 +59,7 @@ class Parse:
                         self.result_dic[lang][category_name].update({item_name: item_alt_name})
         self.driver.close()
         self.driver.quit()
-        with open("items.json", "w", encoding="utf-8") as jsonFile:
+        with open("app/parser/items.json", "w", encoding="utf-8") as jsonFile:
             json.dump(self.result_dic, jsonFile, indent=4)
 
 
@@ -67,17 +67,26 @@ class FileUpdater:
     file_url = "https://raw.githubusercontent.com/proDreams/PoETRY/main/app/parser/items.json"
     current_league = "Sanctum"
 
-    def check_version(self) -> str:
+    def check_server_version(self) -> str:
         response = requests.get(self.file_url)
         if response.json()["League"] == self.current_league:
-            return "Обновление не требуется"
+            return "Обновление не требуется2"
         else:
-            return "Требуется обновление"
+            return "Требуется обновление2"
+
+    def check_local_version(self) -> str:
+        with open("app/parser/items.json", "r") as jsonFile:
+            items = json.load(jsonFile)
+            if items["League"] == self.current_league:
+                return "Обновление не требуется1"
+            else:
+                return "Требуется обновление1"
 
     def update_file(self):
         response = requests.get(self.file_url)
-        with open("items.json", "w", encoding="utf-8") as jsonFile:
+        with open("app/parser/items.json", "w", encoding="utf-8") as jsonFile:
             json.dump(response.json(), jsonFile, indent=4)
+        return "Done"
 
 
 class BrowserUpdater:
@@ -92,7 +101,6 @@ class BrowserUpdater:
             return "Обновление не требуется"
         else:
             return "Требуется обновление"
-
 
 # Parse().parse()
 # FileUpdater().check_version()
