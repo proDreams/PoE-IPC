@@ -1,7 +1,7 @@
-import json
-
+import requests as requests
 from selenium import webdriver
 import time
+import json
 
 
 class Parser:
@@ -19,7 +19,7 @@ class Parser:
         """
         Parsing about page on PoE trade site
         """
-        print('wait...')
+
         for lang in self.langs:
             self.result_dic[lang] = {}
             self.driver.get(url=self.urls[lang])
@@ -52,14 +52,25 @@ class Parser:
                         self.result_dic[lang][category_name].update({item_name: item_alt_name})
         self.driver.close()
         self.driver.quit()
-        print('done')
-
-    def dict_to_json(self):
-        with open("items.json", "w", encoding="utf-8") as file:
-            json.dump(self.result_dic, file, indent=4)
+        with open("items.json", "w", encoding="utf-8") as jsonFile:
+            json.dump(self.result_dic, jsonFile, indent=4)
 
 
-print(Parser().result_dic)
-Parser().parse()
-print(Parser().result_dic)
-Parser().dict_to_json()
+class FileUpdater:
+    file_url = "https://raw.githubusercontent.com/proDreams/PoETRY/main/app/parser/items.json"
+    current_league = "Sanctum"
+
+    def check_version(self):
+        response = requests.get(self.file_url)
+        if response.json()["League"] == self.current_league:
+            print("Same")
+        else:
+            print("Not same")
+
+    def update_file(self):
+        response = requests.get(self.file_url)
+        with open("items.json", "w", encoding="utf-8") as jsonFile:
+            json.dump(response.json(), jsonFile, indent=4)
+
+# Parser().parse()
+# FileUpdater().check_version()
