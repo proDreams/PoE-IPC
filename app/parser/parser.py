@@ -27,7 +27,7 @@ class Parser:
                 {"name": "POESESSID",
                  "path": "/",
                  "domain": ".pathofexile.com",
-                 "value": "b45a275ffb32515faf8de1e6f34af182"})
+                 "value": "ENTER POESESSID"})
             self.driver.get(url=self.urls[lang])
             time.sleep(5)
             start_point = self.driver.find_element("class name", "search-bar.about")
