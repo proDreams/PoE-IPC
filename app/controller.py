@@ -5,6 +5,15 @@ from app.model import GetFromApi, Parse, FileUpdater, VersionInfo
 from app.views import MainMenuView, Inputs, UpdaterViews, ParserEvents
 
 
+class StartUpConfiguration:
+    Configuration().local_item_version = VersionInfo().check_local_version()
+    Configuration().server_item_version = VersionInfo().check_server_version()
+    Configuration().browser_version = VersionInfo().browser_version
+    Configuration().webdriver_version = VersionInfo().webdriver_version
+    Configuration().browser_version_status = VersionInfo().check_browser_version()
+    Configuration().actual_league = GetFromApi().get_leagues()[2]
+
+
 def clear_console():
     os.system("CLS")
 
@@ -62,13 +71,3 @@ class AppMenu:
         MainMenuView().choose_league(leagues)
         select = Inputs().menu_selector(1)
         Configuration().set_league(leagues[int(select) - 1])
-
-
-class StartUpConfiguration:
-    Configuration().local_item_version = VersionInfo().check_local_version()
-    Configuration().server_item_version = VersionInfo().check_server_version()
-    Configuration().browser_version = VersionInfo().browser_version
-    Configuration().webdriver_version = VersionInfo().webdriver_version
-    Configuration().browser_version_status = VersionInfo().check_browser_version()
-    Configuration().actual_league = GetFromApi().get_leagues()[2]
-    AppMenu()
