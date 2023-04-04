@@ -4,23 +4,26 @@ from app.config import Configuration
 
 
 class MainMenuView:
-    version_text = {1: "Обновление не требуется", 2: "Требуется обновление",
-                    3: "Требуется обновление\nОбновление будет загружено автоматически."}
-    menu_headers = ["Номер", "Пункт", "Версия"]
-    main_menu_text = [[1, "Обмен предметов"],
-                      [2, "Обновление базы предметов", version_text[Configuration().local_item_version]],
-                      [3, "Сменить язык"], [4, "Выход"]]
-    parser_menu_text = [[1, "Обновить базу предметов с сервера"], [2, "Обновить базу локально"],
-                        [3, "Назад"]]
-    parser_service_info = [["Версия установленного браузера:", Configuration().browser_version],
-                           ["Версия установленного веб драйвера:", Configuration().webdriver_version],
-                           ["", version_text[Configuration().browser_version_status]], [],
-                           ["База предметов на сервере:", version_text[Configuration().server_item_version]],
-                           ["Локальная база предметов:", version_text[Configuration().local_item_version]]]
-    menu_service_info = [[f"Выбранный язык: {Configuration().current_league}"],
-                         [f"Актуальная лига: {Configuration().current_league}"],
-                         [f"Выбранная лига: {Configuration().current_language}"]]
-    welcome_message_text = [["Добро пожаловать бла бла"], ["Для продолжения нажмите любую клавишу"]]
+    def __init__(self):
+        self.version_text = {1: "Обновление не требуется", 2: "Требуется обновление",
+                             3: "Требуется обновление\nОбновление будет загружено автоматически."}
+        self.menu_headers = ["Номер", "Пункт", "Версия"]
+        self.main_menu_text = [[1, "Обмен предметов"],
+                               [2, "Обновление базы предметов", self.version_text[Configuration().local_item_version]],
+                               [3, "Сменить язык"], [4, "Выбрать лигу"], [5, "Выход"]]
+        self.parser_menu_text = [[1, "Обновить базу предметов с сервера"], [2, "Обновить базу локально"],
+                                 [3, "Назад"]]
+        self.parser_service_info = [["Версия установленного браузера:", Configuration().browser_version],
+                                    ["Версия установленного веб драйвера:", Configuration().webdriver_version],
+                                    ["", self.version_text[Configuration().browser_version_status]], [],
+                                    ["База предметов на сервере:",
+                                     self.version_text[Configuration().server_item_version]],
+                                    ["Локальная база предметов:",
+                                     self.version_text[Configuration().local_item_version]]]
+        self.menu_service_info = [[f"Выбранный язык: {Configuration().current_language}"],
+                                  [f"Актуальная лига: {Configuration().actual_league}"],
+                                  [f"Выбранная лига: {Configuration().selected_league}"]]
+        self.welcome_message_text = [["Добро пожаловать бла бла"], ["Для продолжения нажмите любую клавишу"]]
 
     def print_welcome_message(self):
         print(tabulate(self.welcome_message_text))
@@ -33,6 +36,11 @@ class MainMenuView:
     def print_parser_menu(self):
         print(tabulate(self.parser_service_info))
         print(tabulate(self.parser_menu_text, headers=self.menu_headers, stralign="left"))
+
+    @staticmethod
+    def choose_league(league_list):
+        leagues_list = [[pos, name] for pos, name in enumerate(league_list, 1)]
+        print(tabulate(leagues_list))
 
 
 class UpdaterViews:
