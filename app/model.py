@@ -1,5 +1,6 @@
 import os
 import requests as requests
+import yaml
 from selenium import webdriver
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 import time
@@ -65,10 +66,11 @@ class Parse:
 
 
 class Data:
-    file_url = "https://raw.githubusercontent.com/proDreams/PoETRY/main/items.json"
+    items_url = "https://raw.githubusercontent.com/proDreams/PoETRY/main/items.json"
+    config_url = "https://raw.githubusercontent.com/proDreams/PoETRY/main/config.yaml"
 
     def get_server_version(self):
-        response = requests.get(self.file_url)
+        response = requests.get(self.items_url)
         return response.json()["League"]
 
     @staticmethod
@@ -78,7 +80,7 @@ class Data:
             return items["League"]
 
     def update_file(self):
-        response = requests.get(self.file_url)
+        response = requests.get(self.items_url)
         with open("items.json", "w", encoding="utf-8") as jsonFile:
             json.dump(response.json(), jsonFile, indent=4)
 
@@ -88,11 +90,14 @@ class Data:
             items = json.load(jsonFile)
             return items[current_language]
 
+    def get_version(self):
+        response = requests.get(self.config_url)
+        return yaml.safe_load(response.content)["version"]
+
 
 class GetFromApi:
     url_leagues = "https://api.pathofexile.com/leagues"
     url_currency = "https://www.pathofexile.com/api/trade/exchange/"
-    url_get = "https://www.pathofexile.com/api/trade/fetch/"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                       "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212",
@@ -105,12 +110,13 @@ class GetFromApi:
         leagues_list = [i.get('id') for i in leagues if 'SSF' not in i.get('id')]
         return leagues_list
 
-    def get_currency_price(self, want, cl, have='chaos'):
+    def get_currency_price(self, want, cl, quant=1, have='chaos'):
         price_catalog = []
         data = {
             "exchange": {
                 "want": [want],
                 "have": [have],
+                "minimum": quant,
                 "status": "online"
             },
             "engine": "new"

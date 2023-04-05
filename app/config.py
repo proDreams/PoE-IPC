@@ -14,6 +14,8 @@ class Configuration:
         self._local_item_version = Data().get_server_version()
         self._server_item_version = Data().get_server_version()
         self._version = config["version"]
+        self._actual_version = Data().get_version()
+        self._trade_mode = config["trade_mode"]
 
     def version_equals(self):
         if self._local_item_version == self.server_item_version:
@@ -24,6 +26,14 @@ class Configuration:
     @property
     def version(self):
         return self._version
+
+    @property
+    def actual_version(self):
+        return self._actual_version
+
+    @property
+    def trade_mode(self):
+        return self._trade_mode
 
     @property
     def selected_league(self):
@@ -52,6 +62,10 @@ class Configuration:
     @selected_league.setter
     def selected_league(self, value):
         self._selected_league = value
+
+    @trade_mode.setter
+    def trade_mode(self, value):
+        self._trade_mode = value
 
     @actual_league.setter
     def actual_league(self, value):
@@ -82,3 +96,23 @@ class Configuration:
         with open('config.yaml', 'w') as f:
             yaml.safe_dump(conf, f)
         self._selected_league = league
+
+    def set_mode(self, mode):
+        with open('config.yaml') as f:
+            conf = yaml.safe_load(f)
+
+        conf['trade_mode'] = mode
+
+        with open('config.yaml', 'w') as f:
+            yaml.safe_dump(conf, f)
+        self._trade_mode = mode
+
+    def set_lang(self, lang):
+        with open('config.yaml') as f:
+            conf = yaml.safe_load(f)
+
+        conf['current_language'] = lang
+
+        with open('config.yaml', 'w') as f:
+            yaml.safe_dump(conf, f)
+        self._current_language = lang

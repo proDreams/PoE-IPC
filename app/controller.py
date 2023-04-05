@@ -1,4 +1,5 @@
 import os
+import sys
 
 from app.config import Configuration
 from app.model import GetFromApi, Parse, Data
@@ -17,32 +18,40 @@ class AppMenu:
         self.main_menu()
 
     def main_menu(self):
-        clear_console()
         while self.menu_depth == 1:
+            clear_console()
             MainMenuView().print_main_menu()
             select = Inputs().menu_selector(1)
             clear_console()
             match select:
                 case "1":
-                    items = Data().get_items(Configuration().current_language)
-                    category = ChooseItem().print_category_and_items(items)
-                    clear_console()
-                    print(category)
-                    item = ChooseItem().print_category_and_items(items, category)
-                    count = int(Inputs().menu_selector(2))
-                    price = GetFromApi().get_currency_price(item, Configuration().selected_league)
-                    result_price, result_count = GetFromApi().calculate_result(count, price)
-                    MainMenuView().print_result(result_count, result_price)
-                    Inputs().any_key()
+                    while True:
+                        clear_console()
+                        items = Data().get_items(Configuration().current_language)
+                        category = ChooseItem().print_category_and_items(items)
+                        clear_console()
+                        print(category)
+                        item = ChooseItem().print_category_and_items(items, category)
+                        count = int(Inputs().menu_selector(2))
+                        if Configuration().trade_mode == "bulk":
+                            price = GetFromApi().get_currency_price(item, Configuration().selected_league, count)
+                        else:
+                            price = GetFromApi().get_currency_price(item, Configuration().selected_league)
+                        result_price, result_count = GetFromApi().calculate_result(count, price)
+                        MainMenuView().print_result(result_count, result_price)
+                        if Inputs().any_key() == "1":
+                            break
                 case "2":
                     self.menu_depth = 2
                     self.parser_menu()
                 case "3":
-                    pass
+                    self.choose_language()
                 case "4":
                     self.choose_league_menu()
                 case "5":
-                    self.menu_depth = 0
+                    self.choose_mode()
+                case "6":
+                    sys.exit(0)
                 case _:
                     Inputs().wrong_input_message()
 
@@ -73,3 +82,19 @@ class AppMenu:
         MainMenuView().choose_league(leagues)
         select = Inputs().menu_selector(1)
         Configuration().set_league(leagues[int(select) - 1])
+
+    @staticmethod
+    def choose_mode():
+        mode_dict = {1: "bulk", 2: "retail"}
+        clear_console()
+        MainMenuView().choose_mode()
+        select = Inputs().menu_selector(4)
+        Configuration().set_mode(mode_dict[int(select)])
+
+    @staticmethod
+    def choose_language():
+        langs = {1: "ru", 2: "en"}
+        clear_console()
+        MainMenuView().choose_lang()
+        select = Inputs().menu_selector(5)
+        Configuration().set_lang(langs[int(select)])
