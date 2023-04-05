@@ -1,7 +1,8 @@
 import os
 
 from app.config import Configuration
-from app.parser import Parse, FileUpdater, VersionInfo
+from app.model import GetFromApi, Parse, Data
+from app.views import MainMenuView, Inputs, UpdaterViews, ParserEvents, ChooseItem
 
 
 def clear_console():
@@ -12,14 +13,10 @@ class AppMenu:
     menu_depth = 1
 
     def __init__(self):
-        from app.views import MainMenuView
-
         MainMenuView().print_welcome_message()
         self.main_menu()
 
     def main_menu(self):
-        from app.views import MainMenuView, Inputs
-
         clear_console()
         while self.menu_depth == 1:
             MainMenuView().print_main_menu()
@@ -27,20 +24,29 @@ class AppMenu:
             clear_console()
             match select:
                 case "1":
-                    pass
+                    items = Data().get_items(Configuration().current_language)
+                    category = ChooseItem().print_category_and_items(items)
+                    clear_console()
+                    print(category)
+                    item = ChooseItem().print_category_and_items(items, category)
+                    count = int(Inputs().menu_selector(2))
+                    price = GetFromApi().get_currency_price(item, Configuration().selected_league)
+                    result_price, result_count = GetFromApi().calculate_result(count, price)
+                    MainMenuView().print_result(result_count, result_price)
+                    Inputs().any_key()
                 case "2":
                     self.menu_depth = 2
                     self.parser_menu()
                 case "3":
                     pass
                 case "4":
+                    self.choose_league_menu()
+                case "5":
                     self.menu_depth = 0
                 case _:
                     Inputs().wrong_input_message()
 
     def parser_menu(self):
-        from app.views import MainMenuView, UpdaterViews, ParserEvents, Inputs
-
         clear_console()
         while self.menu_depth == 2:
             MainMenuView().print_parser_menu()
@@ -48,20 +54,22 @@ class AppMenu:
             clear_console()
             match select:
                 case "1":
-                    FileUpdater().update_file()
+                    Data().update_file()
                     UpdaterViews().print_update_operation(1)
                 case "2":
                     ParserEvents().print_event(1)
-                    Parse().parse()
+                    Parse().parse(actual_league=Configuration().actual_league,
+                                  poesessid=Configuration().poesessid)
                     ParserEvents().print_event(2)
                 case "3":
                     self.menu_depth = 1
                 case _:
                     Inputs().wrong_input_message()
 
-
-class StartUpConfiguration:
-    Configuration().set_versions(VersionInfo().check_local_version(), VersionInfo().check_server_version(),
-                                 VersionInfo().browser_version, VersionInfo().webdriver_version,
-                                 VersionInfo().check_browser_version())
-    AppMenu()
+    @staticmethod
+    def choose_league_menu():
+        clear_console()
+        leagues = GetFromApi().get_leagues()
+        MainMenuView().choose_league(leagues)
+        select = Inputs().menu_selector(1)
+        Configuration().set_league(leagues[int(select) - 1])

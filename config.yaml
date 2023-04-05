@@ -1,4 +1,4 @@
----
-  current_league: Sanctum
-  current_language: Ru
-  poesessid: ""
+version: 1.0.0
+current_language: ru
+poesessid: ''
+selected_league: Standard
