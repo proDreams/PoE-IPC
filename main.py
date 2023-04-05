@@ -1,5 +1,4 @@
-from app.controller import StartUpConfiguration, AppMenu
+from app.controller import AppMenu
 
 if __name__ == "__main__":
-    StartUpConfiguration()
     AppMenu()
