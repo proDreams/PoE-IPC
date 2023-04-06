@@ -124,10 +124,14 @@ class Inputs:
                           6: "Please enter your POESESSID for parser: "}}
 
     def menu_selector(self, point):
-        return input(self.input_words[MainMenuView().lang][point])
+        while True:
+            try:
+                return int(input(self.input_words[MainMenuView().lang][point]))
+            except ValueError:
+                self.wrong_input_message()
 
     def wrong_input_message(self):
-        return self.input_words[MainMenuView().lang][0]
+        print(self.input_words[MainMenuView().lang][0])
 
     def any_key(self):
         return input(self.input_words[MainMenuView().lang][3])
