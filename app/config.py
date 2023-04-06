@@ -116,3 +116,13 @@ class Configuration:
         with open('config.yaml', 'w') as f:
             yaml.safe_dump(conf, f)
         self._current_language = lang
+
+    def set_poesessid(self, poesessid):
+        with open('config.yaml') as f:
+            conf = yaml.safe_load(f)
+
+        conf['poesessid'] = poesessid
+
+        with open('config.yaml', 'w') as f:
+            yaml.safe_dump(conf, f)
+        self._poesessid = poesessid
