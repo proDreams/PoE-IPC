@@ -24,7 +24,7 @@ class AppMenu:
             select = Inputs().menu_selector(1)
             clear_console()
             match select:
-                case "1":
+                case 1:
                     while True:
                         clear_console()
                         items = Data().get_items(Configuration().current_language)
@@ -42,16 +42,16 @@ class AppMenu:
                         MainMenuView().print_result(result_count, result_price)
                         if Inputs().any_key() == "1":
                             break
-                case "2":
+                case 2:
                     self.menu_depth = 2
                     self.parser_menu()
-                case "3":
+                case 3:
                     self.choose_language()
-                case "4":
+                case 4:
                     self.choose_league_menu()
-                case "5":
+                case 5:
                     self.choose_mode()
-                case "6":
+                case 6:
                     sys.exit(0)
                 case _:
                     Inputs().wrong_input_message()
