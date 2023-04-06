@@ -32,6 +32,7 @@ class AppMenu:
                         clear_console()
                         print(category)
                         item = ChooseItem().print_category_and_items(items, category)
+                        clear_console()
                         count = int(Inputs().menu_selector(2))
                         if Configuration().trade_mode == "bulk":
                             price = GetFromApi().get_currency_price(item, Configuration().selected_league, count)

@@ -59,11 +59,11 @@ class MainMenuView:
         self.welcome_message_text = {
             "ru": [["Добро пожаловать в приложение PoETRY"],
                    ["Приложение для расчёта оптимального соотношения цены предмета к сферам хаоса"],
-                   [""], ["Автор: Иван proDream Ашихмин"], ["Поддержать автора: https://boosty.to/prodream/donate"],
+                   [""], ["Автор: Иван 'proDream' Ашихмин"], ["Поддержать автора: https://boosty.to/prodream/donate"],
                    [""], ["Для продолжения нажмите любую клавишу"]],
             "en": [["Welcome in PoETRY"],
                    ["Application for calculating the optimal ratio of the price of an item to chaos orbs"],
-                   [""], ["Author: Ivan proDream Ashikhmin"], ["Donate: https://boosty.to/prodream/donate"],
+                   [""], ["Author: Ivan 'proDream' Ashikhmin"], ["Donate: https://boosty.to/prodream/donate"],
                    [""], ["To continue, press any key"]]}
 
     def print_welcome_message(self):
