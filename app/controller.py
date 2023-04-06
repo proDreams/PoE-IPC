@@ -63,10 +63,10 @@ class AppMenu:
             select = Inputs().menu_selector(1)
             clear_console()
             match select:
-                case "1":
+                case 1:
                     Data().update_file()
                     UpdaterViews().print_update_operation(1)
-                case "2":
+                case 2:
                     poesessid = Configuration().poesessid
                     if poesessid == "":
                         poesessid = Inputs().menu_selector(6)
@@ -75,7 +75,7 @@ class AppMenu:
                     Parse().parse(actual_league=Configuration().actual_league,
                                   poesessid=poesessid)
                     ParserEvents().print_event(2)
-                case "3":
+                case 3:
                     self.menu_depth = 1
                 case _:
                     Inputs().wrong_input_message()
