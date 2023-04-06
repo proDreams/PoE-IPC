@@ -59,11 +59,11 @@ class MainMenuView:
         self.welcome_message_text = {
             "ru": [["Добро пожаловать в приложение PoETRY"],
                    ["Приложение для расчёта оптимального соотношения цены предмета к сферам хаоса"],
-                   [""], ["Автор: Иван proDream Ашихмин"], ["Поддержать автора: https://boosty.to/prodream/donate"],
+                   [""], ["Автор: Иван 'proDream' Ашихмин"], ["Поддержать автора: https://boosty.to/prodream/donate"],
                    [""], ["Для продолжения нажмите любую клавишу"]],
             "en": [["Welcome in PoETRY"],
                    ["Application for calculating the optimal ratio of the price of an item to chaos orbs"],
-                   [""], ["Author: Ivan proDream Ashikhmin"], ["Donate: https://boosty.to/prodream/donate"],
+                   [""], ["Author: Ivan 'proDream' Ashikhmin"], ["Donate: https://boosty.to/prodream/donate"],
                    [""], ["To continue, press any key"]]}
 
     def print_welcome_message(self):
@@ -115,11 +115,13 @@ class Inputs:
     input_words = {"ru": {0: "Неверная команда, попробуйте ещё раз", 1: "Введите номер пункта меню: ",
                           2: "Введите количество: ", 3: "Для возврата к выбору категории, нажмите любую кнопку.\n"
                                                         "Для возврата в меню введите 1: ",
-                          4: "Выберите режим: ", 5: "Выберите язык / Select language: "},
+                          4: "Выберите режим: ", 5: "Выберите язык / Select language: ",
+                          6: "Пожалуйста, введите ваш POESESSID для парсера: "},
                    "en": {0: "Wrong input, try again", 1: "Select a menu item: ",
                           2: "Enter quantity: ", 3: "For back to select check another item, press any key.\n"
                                                     "For back to main menu, input 1: ",
-                          4: "Select mode: ", 5: "Select language / Выберите язык: "}}
+                          4: "Select mode: ", 5: "Select language / Выберите язык: ",
+                          6: "Please enter your POESESSID for parser: "}}
 
     def menu_selector(self, point):
         return input(self.input_words[MainMenuView().lang][point])

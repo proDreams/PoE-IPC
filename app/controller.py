@@ -32,6 +32,7 @@ class AppMenu:
                         clear_console()
                         print(category)
                         item = ChooseItem().print_category_and_items(items, category)
+                        clear_console()
                         count = int(Inputs().menu_selector(2))
                         if Configuration().trade_mode == "bulk":
                             price = GetFromApi().get_currency_price(item, Configuration().selected_league, count)
@@ -66,9 +67,13 @@ class AppMenu:
                     Data().update_file()
                     UpdaterViews().print_update_operation(1)
                 case "2":
+                    poesessid = Configuration().poesessid
+                    if poesessid == "":
+                        poesessid = Inputs().menu_selector(6)
+                        Configuration().poesessid = set_poesessid
                     ParserEvents().print_event(1)
                     Parse().parse(actual_league=Configuration().actual_league,
-                                  poesessid=Configuration().poesessid)
+                                  poesessid=poesessid)
                     ParserEvents().print_event(2)
                 case "3":
                     self.menu_depth = 1
