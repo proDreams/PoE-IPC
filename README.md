@@ -30,5 +30,5 @@ pip install -r requirements.txt
 4. Пользоваться
 
 ## Автор
-Иван "proDream" Ашихмин
+Иван "proDream" Ашихмин  
 Поддержать: [Boosty](https://boosty.to/prodream/donate)

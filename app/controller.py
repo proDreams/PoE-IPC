@@ -24,7 +24,7 @@ class AppMenu:
             select = Inputs().menu_selector(1)
             clear_console()
             match select:
-                case "1":
+                case 1:
                     while True:
                         clear_console()
                         items = Data().get_items(Configuration().current_language)
@@ -42,16 +42,16 @@ class AppMenu:
                         MainMenuView().print_result(result_count, result_price)
                         if Inputs().any_key() == "1":
                             break
-                case "2":
+                case 2:
                     self.menu_depth = 2
                     self.parser_menu()
-                case "3":
+                case 3:
                     self.choose_language()
-                case "4":
+                case 4:
                     self.choose_league_menu()
-                case "5":
+                case 5:
                     self.choose_mode()
-                case "6":
+                case 6:
                     sys.exit(0)
                 case _:
                     Inputs().wrong_input_message()
@@ -70,7 +70,7 @@ class AppMenu:
                     poesessid = Configuration().poesessid
                     if poesessid == "":
                         poesessid = Inputs().menu_selector(6)
-                        Configuration().poesessid = set_poesessid
+                        Configuration().poesessid = poesessid
                     ParserEvents().print_event(1)
                     Parse().parse(actual_league=Configuration().actual_league,
                                   poesessid=poesessid)
@@ -85,7 +85,12 @@ class AppMenu:
         clear_console()
         leagues = GetFromApi().get_leagues()
         MainMenuView().choose_league(leagues)
-        select = Inputs().menu_selector(1)
+        while True:
+            select = Inputs().menu_selector(1)
+            if select > len(leagues):
+                Inputs().wrong_input_message()
+            else:
+                break
         Configuration().set_league(leagues[int(select) - 1])
 
     @staticmethod
@@ -93,7 +98,12 @@ class AppMenu:
         mode_dict = {1: "bulk", 2: "retail"}
         clear_console()
         MainMenuView().choose_mode()
-        select = Inputs().menu_selector(4)
+        while True:
+            select = Inputs().menu_selector(4)
+            if select > len(mode_dict):
+                Inputs().wrong_input_message()
+            else:
+                break
         Configuration().set_mode(mode_dict[int(select)])
 
     @staticmethod
@@ -101,5 +111,10 @@ class AppMenu:
         langs = {1: "ru", 2: "en"}
         clear_console()
         MainMenuView().choose_lang()
-        select = Inputs().menu_selector(5)
+        while True:
+            select = Inputs().menu_selector(5)
+            if select > len(langs):
+                Inputs().wrong_input_message()
+            else:
+                break
         Configuration().set_lang(langs[int(select)])
