@@ -113,13 +113,17 @@ class UpdaterViews:
 
 class Inputs:
     input_words = {"ru": {0: "Неверная команда, попробуйте ещё раз", 1: "Введите номер пункта меню: ",
-                          2: "Введите количество: ", 3: "Для возврата к выбору категории, нажмите любую кнопку.\n"
-                                                        "Для возврата в меню введите 1: ",
+                          2: "Введите количество или 0 для возврата к выбору предмета: ",
+                          3: "Для возврата к выбору предмета, нажмите любую кнопку.: \n"
+                             "Для возврата к выбору категории введите 0: \n"
+                             "Для возврата в меню введите 1: ",
                           4: "Выберите режим: ", 5: "Выберите язык / Select language: ",
                           6: "Пожалуйста, введите ваш POESESSID для парсера: "},
                    "en": {0: "Wrong input, try again", 1: "Select a menu item: ",
-                          2: "Enter quantity: ", 3: "For back to select check another item, press any key.\n"
-                                                    "For back to main menu, input 1: ",
+                          2: "Enter quantity or 0 to back on item menu: ",
+                          3: "For back to select another item, press any key.: \n"
+                             "For back to select another category, input 0: \n"
+                             "For back to main menu, input 1: ",
                           4: "Select mode: ", 5: "Select language / Выберите язык: ",
                           6: "Please enter your POESESSID for parser: "}}
 
@@ -134,7 +138,11 @@ class Inputs:
         print(self.input_words[MainMenuView().lang][0])
 
     def any_key(self):
-        return input(self.input_words[MainMenuView().lang][3])
+        while True:
+            try:
+                return int(input(self.input_words[MainMenuView().lang][3]))
+            except ValueError:
+                self.wrong_input_message()
 
 
 class ParserEvents:
@@ -164,6 +172,8 @@ class ChooseItem:
                     break
             except ValueError:
                 print(Inputs().wrong_input_message())
+        if selector == 0:
+            return 0
         if category is None:
             return key_list[selector - 1]
         else:
@@ -186,6 +196,8 @@ class ChooseItem:
 
     @staticmethod
     def print_event(point):
-        message = {"ru": {1: 'Выберете раздел: ', 2: 'Выберете предмет: '},
-                   "en": {1: 'Select category: ', 2: 'Select item: '}}
+        message = {"ru": {1: 'Выберете раздел или 0 для возврата в меню: ',
+                          2: 'Выберете предмет или 0 для возврата к выбору категории: '},
+                   "en": {1: 'Select category or 0 to return in menu: ',
+                          2: 'Select item or 0 to back to category select: '}}
         return message[MainMenuView().lang][point]

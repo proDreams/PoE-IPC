@@ -25,23 +25,36 @@ class AppMenu:
             clear_console()
             match select:
                 case 1:
-                    while True:
+                    category_selector = True
+                    while category_selector:
                         clear_console()
                         items = Data().get_items(Configuration().current_language)
                         category = ChooseItem().print_category_and_items(items)
+                        if category == 0:
+                            break
                         clear_console()
                         print(category)
-                        item = ChooseItem().print_category_and_items(items, category)
-                        clear_console()
-                        count = int(Inputs().menu_selector(2))
-                        if Configuration().trade_mode == "bulk":
-                            price = GetFromApi().get_currency_price(item, Configuration().selected_league, count)
-                        else:
-                            price = GetFromApi().get_currency_price(item, Configuration().selected_league)
-                        result_price, result_count = GetFromApi().calculate_result(count, price)
-                        MainMenuView().print_result(result_count, result_price)
-                        if Inputs().any_key() == "1":
-                            break
+                        item_selector = True
+                        while item_selector:
+                            item = ChooseItem().print_category_and_items(items, category)
+                            if item == 0:
+                                break
+                            clear_console()
+                            count = int(Inputs().menu_selector(2))
+                            if count != 0:
+                                if Configuration().trade_mode == "bulk":
+                                    price = GetFromApi().get_currency_price(item, Configuration().selected_league,
+                                                                            count)
+                                else:
+                                    price = GetFromApi().get_currency_price(item, Configuration().selected_league)
+                                result_price, result_count = GetFromApi().calculate_result(count, price)
+                                MainMenuView().print_result(result_count, result_price)
+                                end = Inputs().any_key()
+                                if end == 1:
+                                    item_selector = False
+                                    category_selector = False
+                                elif end == 0:
+                                    item_selector = False
                 case 2:
                     self.menu_depth = 2
                     self.parser_menu()
