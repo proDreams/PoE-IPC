@@ -70,7 +70,7 @@ class AppMenu:
                     poesessid = Configuration().poesessid
                     if poesessid == "":
                         poesessid = Inputs().menu_selector(6)
-                        Configuration().poesessid = set_poesessid
+                        Configuration().poesessid = poesessid
                     ParserEvents().print_event(1)
                     Parse().parse(actual_league=Configuration().actual_league,
                                   poesessid=poesessid)
@@ -85,7 +85,12 @@ class AppMenu:
         clear_console()
         leagues = GetFromApi().get_leagues()
         MainMenuView().choose_league(leagues)
-        select = Inputs().menu_selector(1)
+        while True:
+            select = Inputs().menu_selector(1)
+            if select > len(leagues):
+                Inputs().wrong_input_message()
+            else:
+                break
         Configuration().set_league(leagues[int(select) - 1])
 
     @staticmethod
@@ -93,7 +98,12 @@ class AppMenu:
         mode_dict = {1: "bulk", 2: "retail"}
         clear_console()
         MainMenuView().choose_mode()
-        select = Inputs().menu_selector(4)
+        while True:
+            select = Inputs().menu_selector(4)
+            if select > len(mode_dict):
+                Inputs().wrong_input_message()
+            else:
+                break
         Configuration().set_mode(mode_dict[int(select)])
 
     @staticmethod
@@ -101,5 +111,10 @@ class AppMenu:
         langs = {1: "ru", 2: "en"}
         clear_console()
         MainMenuView().choose_lang()
-        select = Inputs().menu_selector(5)
+        while True:
+            select = Inputs().menu_selector(5)
+            if select > len(langs):
+                Inputs().wrong_input_message()
+            else:
+                break
         Configuration().set_lang(langs[int(select)])
