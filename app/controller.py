@@ -36,10 +36,11 @@ class AppMenu:
                         print(category)
                         item_selector = True
                         while item_selector:
-                            item = ChooseItem().print_category_and_items(items, category)
+                            item, item_name = ChooseItem().print_category_and_items(items, category)
                             if item == 0:
                                 break
                             clear_console()
+                            MainMenuView().print_selected(category, item_name)
                             count = int(Inputs().menu_selector(2))
                             if count != 0:
                                 if Configuration().trade_mode == "bulk":
@@ -65,6 +66,10 @@ class AppMenu:
                 case 5:
                     self.choose_mode()
                 case 6:
+                    clear_console()
+                    MainMenuView().print_instruction()
+                    Inputs().menu_selector(7)
+                case 7:
                     sys.exit(0)
                 case _:
                     Inputs().wrong_input_message()
