@@ -2,5 +2,9 @@
     "win64_edgedriver_111.0.1661_for_111.0.1661": {
         "timestamp": "07/04/2023",
         "binary_path": "C:\\Users\\proDream\\PycharmProjects\\PoETRY\\.wdm\\drivers\\edgedriver\\win64\\111.0.1661\\msedgedriver.exe"
+    },
+    "win64_edgedriver_112.0.1722_for_112.0.1722": {
+        "timestamp": "16/04/2023",
+        "binary_path": "C:\\Users\\proDream\\PycharmProjects\\PoETRY\\.wdm\\drivers\\edgedriver\\win64\\112.0.1722\\msedgedriver.exe"
     }
 }

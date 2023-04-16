@@ -56,7 +56,7 @@ class Parse:
                         item_name = item.find_element("class name", "filter-title").get_attribute("textContent").strip()
                         item_alt_name = item.find_element("class name", "form-control").get_attribute("value")
                         blocked_words = ["whispering", "muttering", "weeping", "wailing", "screaming"]
-                        if any(word in blocked_words for word in item_alt_name):
+                        if any(blocked_word in item_alt_name for blocked_word in blocked_words):
                             continue
                         result_dic[lang][category_name].update({item_name: item_alt_name})
         self.driver.close()
@@ -107,7 +107,7 @@ class GetFromApi:
     def get_leagues(self):
         leagues_response = requests.get(self.url_leagues, headers=self.headers)
         leagues = json.loads(leagues_response.text)
-        leagues_list = [i.get('id') for i in leagues if 'SSF' not in i.get('id')]
+        leagues_list = [i.get('id') for i in leagues if 'SSF' not in i.get('id') and 'Solo' not in i.get('id')]
         return leagues_list
 
     def get_currency_price(self, want, cl, quant=1, have='chaos'):

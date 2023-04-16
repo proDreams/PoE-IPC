@@ -10,8 +10,8 @@ class Configuration:
         self._selected_league = config["selected_league"]
         self._current_language = config["current_language"]
         self._poesessid = config["poesessid"]
-        self._actual_league = GetFromApi().get_leagues()[2]
-        self._local_item_version = Data().get_server_version()
+        self._actual_league = GetFromApi().get_leagues()[4]
+        self._local_item_version = Data().get_local_version()
         self._server_item_version = Data().get_server_version()
         self._version = config["version"]
         self._actual_version = Data().get_version()

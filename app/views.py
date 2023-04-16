@@ -114,16 +114,16 @@ class UpdaterViews:
 class Inputs:
     input_words = {"ru": {0: "Неверная команда, попробуйте ещё раз", 1: "Введите номер пункта меню: ",
                           2: "Введите количество или 0 для возврата к выбору предмета: ",
-                          3: "Для возврата к выбору предмета, нажмите любую кнопку.: \n"
-                             "Для возврата к выбору категории введите 0: \n"
-                             "Для возврата в меню введите 1: ",
+                          3: "Для возврата к выбору предмета, 1: \n"
+                             "Для возврата к выбору категории введите 2: \n"
+                             "Для возврата в меню введите 3: ",
                           4: "Выберите режим: ", 5: "Выберите язык / Select language: ",
                           6: "Пожалуйста, введите ваш POESESSID для парсера: "},
                    "en": {0: "Wrong input, try again", 1: "Select a menu item: ",
                           2: "Enter quantity or 0 to back on item menu: ",
-                          3: "For back to select another item, press any key.: \n"
-                             "For back to select another category, input 0: \n"
-                             "For back to main menu, input 1: ",
+                          3: "For back to select another item, input 1: \n"
+                             "For back to select another category, input 2: \n"
+                             "For back to main menu, input 3: ",
                           4: "Select mode: ", 5: "Select language / Выберите язык: ",
                           6: "Please enter your POESESSID for parser: "}}
 
@@ -133,6 +133,9 @@ class Inputs:
                 return int(input(self.input_words[MainMenuView().lang][point]))
             except ValueError:
                 self.wrong_input_message()
+
+    def input_poesessid(self):
+        return input(self.input_words[MainMenuView().lang][6])
 
     def wrong_input_message(self):
         print(self.input_words[MainMenuView().lang][0])
