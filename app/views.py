@@ -22,12 +22,12 @@ class MainMenuView:
                                       [2, "Обновление базы предметов", self.version_equals],
                                       [3, "Сменить язык / Change language"], [4, "Выбрать лигу"],
                                       [5, "Сменить режим торговли"],
-                                      [6, "Выход"]],
+                                      [6, "Инструкция по  использованию приложения"], [7, "Выход"]],
                                "en": [[1, "Convert items price"],
                                       [2, "Update items base", self.version_equals],
                                       [3, "Change language / Сменить язык"], [4, "Choose league"],
                                       [5, "Change trade mode"],
-                                      [6, "Exit"]]}
+                                      [6, "Instructions for using the application"], [7, "Exit"]]}
         self.parser_menu_text = {
             "ru": [[1, "Обновить базу предметов с сервера"], [2, "Обновить базу локально парсером"],
                    [3, "Назад"]],
@@ -65,6 +65,38 @@ class MainMenuView:
                    ["Application for calculating the optimal ratio of the price of an item to chaos orbs"],
                    [""], ["Author: Ivan 'proDream' Ashikhmin"], ["Donate: https://boosty.to/prodream/donate"],
                    [""], ["To continue, press any key"]]}
+        self.instruction = {
+            "ru": [["Инструкция по  использованию приложения."],
+                   ["Полная версия со скриншотами доступна на странице проекта: https://github.com/proDreams/PoETRY"],
+                   [""], ["Проверка цены:"], ["1: Выбрать необходимую категорию предмета."],
+                   ["2: Выбрать необходимый предмет."], ["3: Ввести количество имеющегося у вас предмета."],
+                   ["!Рекомендуется вводить не больше, чем помещается в сумку!"],
+                   ["4: После вывода результата, так же будет выведена строка для вставки в игру."],
+                   ["Строку вида '~price 25/5 chaos' необходимо вставить в поле для заметки у выставляемого предмета."],
+                   [""], ["Обновление базы предметов:"], ["1: Перейти в меню обновления базы."],
+                   ["2: Убедиться, что локальная база устарела."],
+                   ["3: Если база на сервере соответствует актуальной лиге, а локальная нет,"],
+                   ["Выбрать первый пункт для обновления базы с сервера."],
+                   ["4: Если база на сервере, по какой-то причине тоже устарела, то выбрать второй пункт."],
+                   ["Ввести ваш POESESSID, это необходимо для получение актуального списка с торгового сайта."],
+                   ["Дождаться обновления."]],
+            "en": [["Instructions for using the application."],
+                   [
+                       "The full version with screenshots is available on the project page: https://github.com/proDreams/PoETRY"],
+                   [""], ["Price check:"], ["1: Select the required category of the item."],
+                   ["2: Select required item."], ["3: Enter the quantity of the item you have."],
+                   ["!It is recommended to input no more than will fit in the bag!"],
+                   ["4: After the output of the result, a line will also be displayed for insertion into the game."],
+                   [
+                       "A line like '~price 25/5 chaos' must be inserted into the note field of the item being displayed."],
+                   [""], ["Item database update:"], ["1: Go to the database update menu."],
+                   ["2: Make sure the local database is out of date."],
+                   ["3: If the database on the server matches the current league, but the local one does not,"],
+                   ["Select the first item to update the database from the server."],
+                   [
+                       "4: If the database on the server, for some reason, is also outdated, then select the second item."],
+                   ["Enter your POESESSID, this is necessary to get an up-to-date list from the trading site."],
+                   ["Wait for update."]]}
 
     def print_welcome_message(self):
         print(tabulate(self.welcome_message_text[self.lang]))
@@ -102,6 +134,14 @@ class MainMenuView:
                   "en": [[f"You will receive {price} orb of chaos for {count}"], [f"~price {price}/{count} chaos"]]}
         print(tabulate(result[self.lang]))
 
+    def print_selected(self, category, item):
+        selected = {"ru": [["Выбранная категория", "Выбранный предмет"], [category, item]],
+                    "en": [["Selected category", "Selected item"], [category, item]]}
+        print(tabulate(selected[self.lang], headers="firstrow"))
+
+    def print_instruction(self):
+        print(tabulate(self.instruction[self.lang]))
+
 
 class UpdaterViews:
     operations = {"ru": {1: "Операция обновления выполнена успешно"},
@@ -118,14 +158,16 @@ class Inputs:
                              "Для возврата к выбору категории введите 2: \n"
                              "Для возврата в меню введите 3: ",
                           4: "Выберите режим: ", 5: "Выберите язык / Select language: ",
-                          6: "Пожалуйста, введите ваш POESESSID для парсера: "},
+                          6: "Пожалуйста, введите ваш POESESSID для парсера: ",
+                          7: "Для возврата в меню, введите 1: "},
                    "en": {0: "Wrong input, try again", 1: "Select a menu item: ",
                           2: "Enter quantity or 0 to back on item menu: ",
                           3: "For back to select another item, input 1: \n"
                              "For back to select another category, input 2: \n"
                              "For back to main menu, input 3: ",
                           4: "Select mode: ", 5: "Select language / Выберите язык: ",
-                          6: "Please enter your POESESSID for parser: "}}
+                          6: "Please enter your POESESSID for parser: ",
+                          7: "For back to main menu, input 7: "}}
 
     def menu_selector(self, point):
         while True:
@@ -180,7 +222,7 @@ class ChooseItem:
         if category is None:
             return key_list[selector - 1]
         else:
-            return items[category][key_list[selector - 1]]
+            return items[category][key_list[selector - 1]], key_list[selector - 1]
 
     @staticmethod
     def get_list(items):
