@@ -50,10 +50,10 @@ class AppMenu:
                                 result_price, result_count = GetFromApi().calculate_result(count, price)
                                 MainMenuView().print_result(result_count, result_price)
                                 end = Inputs().any_key()
-                                if end == 1:
+                                if end == 3:
                                     item_selector = False
                                     category_selector = False
-                                elif end == 0:
+                                elif end == 2:
                                     item_selector = False
                 case 2:
                     self.menu_depth = 2
@@ -82,7 +82,7 @@ class AppMenu:
                 case 2:
                     poesessid = Configuration().poesessid
                     if poesessid == "":
-                        poesessid = Inputs().menu_selector(6)
+                        poesessid = Inputs().input_poesessid()
                         Configuration().poesessid = poesessid
                     ParserEvents().print_event(1)
                     Parse().parse(actual_league=Configuration().actual_league,
