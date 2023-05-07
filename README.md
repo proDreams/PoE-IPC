@@ -1,4 +1,4 @@
-# PoETRY
+# PoETRY / Path of Exile Items Price Converter
 
 Приложение для удобного расчёта оптимального соотношения цены предмета к сферам хаоса.
 
@@ -76,5 +76,4 @@ pip install -r requirements.txt
 
 ## Автор
 
-Иван "proDream" Ашихмин  
-Поддержать: [Boosty](https://boosty.to/prodream/donate)
+Иван "proDream" Ашихмин
