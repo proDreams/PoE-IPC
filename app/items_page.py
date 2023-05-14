@@ -4,15 +4,12 @@ from flet import (UserControl,
                   ElevatedButton,
                   Row,
                   Image,
-                  MainAxisAlignment,
                   ScrollMode,
                   BottomSheet,
                   Container,
                   Column,
                   TextField,
                   ProgressRing,
-                  CrossAxisAlignment,
-                  alignment
                   )
 
 from app import text_constants, utils
@@ -26,7 +23,8 @@ class Items(UserControl):
         self.quantity_input = TextField(
             label=text_constants.pricer_text[text_constants.current_lang]["quantity"],
             height=60,
-            autofocus=True)
+            autofocus=True,
+            on_submit=self.check_price)
         self.quantity_submit = ElevatedButton(
             text=text_constants.settings_version_text[text_constants.current_lang]["submit"],
             on_click=self.check_price)
@@ -183,5 +181,6 @@ class Items(UserControl):
         self.game_string.visible = False
         self.game_string_row.visible = False
         self.quantity.visible = True
+        self.quantity_input.value = ""
         self.input_row.visible = True
         self.page.update()

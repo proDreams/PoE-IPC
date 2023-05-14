@@ -134,10 +134,10 @@ about_text = {"ru": {"label": "О программе",
                      "github": "Project page:"}
               }
 
-app_bar_text = {"ru": {"title": "PoETRY",
+app_bar_text = {"ru": {"title": "Path of Exile Items Price Converter",
                        "about": "О программе",
                        "settings": "Настройки"},
-                "en": {"title": "PoETRY",
+                "en": {"title": "Path of Exile Items Price Converter",
                        "about": "About",
                        "settings": "Settings"}
                 }
