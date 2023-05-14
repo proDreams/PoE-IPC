@@ -128,7 +128,7 @@ def main(page: ft.Page):
         top_view = page.views[-1]
         page.go(top_view.route)
 
-    page.title = "PoETRY 2.0.0"
+    page.title = "Path of Exile Items Price Converter " + text_constants.version
     page.window_width = 1500
     page.window_resizable = False
     page.on_route_change = route_change

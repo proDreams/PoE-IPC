@@ -1,4 +1,4 @@
-# PoETRY / Path of Exile Items Price Converter
+# Path of Exile Items Price Converter
 
 Приложение для удобного расчёта оптимального соотношения цены предмета к сферам хаоса.
 

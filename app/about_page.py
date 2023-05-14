@@ -46,9 +46,9 @@ class About(UserControl):
         self.github_content = Text(
             spans=[
                 TextSpan(
-                    "https://github.com/proDreams/PoETRY",
+                    "https://github.com/proDreams/PoE-IPC",
                     TextStyle(decoration=TextDecoration.UNDERLINE),
-                    url="https://github.com/proDreams/PoETRY",
+                    url="https://github.com/proDreams/PoE-IPC",
                     on_enter=self.highlight_link,
                     on_exit=self.unhighlight_link,
                 ),
