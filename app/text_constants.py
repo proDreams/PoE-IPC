@@ -124,14 +124,16 @@ about_text = {"ru": {"label": "О программе",
                      "version": "Версия приложения:",
                      "author": "Автор:",
                      "author_name": "Иван Ашихмин",
-                     "github": "Страница проекта:"},
+                     "github": "Страница проекта:",
+                     "telegram": "Связаться с автором через Telegram:"},
               "en": {"label": "About",
                      "description":
                          "Application for calculating the optimal ratio of the price of an item to chaos orbs",
                      "version": "Application version:",
                      "author": "Author:",
                      "author_name": "Ivan Ashikhmin",
-                     "github": "Project page:"}
+                     "github": "Project page:",
+                     "telegram": "Contact with Author via Telegram:"}
               }
 
 app_bar_text = {"ru": {"title": "Path of Exile Items Price Converter",
@@ -161,7 +163,10 @@ pricer_text = {"ru": {"selected_item": "Выбранный предмет:",
                       "game_string": "String for input in game:",
                       "copy_to_clipboard": "Copy"}
                }
-
+error_text = {"ru": {"not_enough_offers": "Ошибка! Не достаточно предложений на рынке для подсчёта цены. "
+                                          "Укажите меньшее количество или проверьте цену вручную"},
+              "en": {"not_enough_offers": "Error! There are not enough offers on the market to calculate the price. "
+                                          "Specify a smaller quantity or check the price manually"}}
 current_lang = get_current_lang()
 list_leagues = get_leagues()
 local_base = get_local_base()

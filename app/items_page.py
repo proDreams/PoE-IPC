@@ -10,6 +10,7 @@ from flet import (UserControl,
                   Column,
                   TextField,
                   ProgressRing,
+                  CrossAxisAlignment,
                   )
 
 from app import text_constants, utils
@@ -18,7 +19,9 @@ from app import text_constants, utils
 class Items(UserControl):
     def __init__(self):
         super().__init__()
-
+        self.not_enough_offers = Text(text_constants.error_text[text_constants.current_lang]["not_enough_offers"],
+                                      size=18,
+                                      visible=False)
         self.bs = BottomSheet()
         self.quantity_input = TextField(
             label=text_constants.pricer_text[text_constants.current_lang]["quantity"],
@@ -71,6 +74,7 @@ class Items(UserControl):
         self.containers = Row(wrap=True)
         self.lang = text_constants.current_lang
         self.category = text_constants.selected_category
+        max_size = max([len(i[0]) for i in self.items_list]) * 10
         for item in self.items_list:
             if item[1] == "None":
                 row_elements = Row(
@@ -78,7 +82,7 @@ class Items(UserControl):
                         Image(src="img/dot.svg",
                               width=48,
                               height=48, ),
-                        Text(item[0], size=15)
+                        Text(item[0], size=14)
                     ],
                     scroll=ScrollMode.AUTO
                 )
@@ -89,14 +93,14 @@ class Items(UserControl):
                               width=48,
                               height=48,
                               ),
-                        Text(item[0], size=15),
+                        Text(item[0], size=14),
                     ],
                     scroll=ScrollMode.AUTO
                 )
 
             btn = ElevatedButton(content=Container(
                 row_elements,
-                width=420,
+                width=max_size,
                 height=60,
             ),
                 on_click=self.open_item_pricer
@@ -131,6 +135,7 @@ class Items(UserControl):
                         self.quantity,
                         self.input_row,
                         self.pricing_ring,
+                        self.not_enough_offers,
                         self.receive_row,
                         self.for_row,
                         self.game_string,
@@ -157,19 +162,24 @@ class Items(UserControl):
                                                            text_constants.selected_item),
                                    league=text_constants.selected_league,
                                    quant=int(self.quantity_input.value))
-        self.pricing_ring.visible = False
-        self.receive_label.value = text_constants.pricer_text[text_constants.current_lang]["receive"]
-        self.receive_content.value = result[0]
-        self.for_label.value = text_constants.pricer_text[text_constants.current_lang]["for"]
-        self.for_content.value = result[1]
-        self.raw_game_string.value = f"~price {result[0]}/{result[1]} chaos"
+        if result:
+            self.pricing_ring.visible = False
+            self.receive_label.value = text_constants.pricer_text[text_constants.current_lang]["receive"]
+            self.receive_content.value = result[0]
+            self.for_label.value = text_constants.pricer_text[text_constants.current_lang]["for"]
+            self.for_content.value = result[1]
+            self.raw_game_string.value = f"~price {result[0]}/{result[1]} chaos"
 
-        self.copy_game_string.visible = True
-        self.receive_row.visible = True
-        self.for_row.visible = True
-        self.game_string.visible = True
-        self.game_string_row.visible = True
-        self.page.update()
+            self.copy_game_string.visible = True
+            self.receive_row.visible = True
+            self.for_row.visible = True
+            self.game_string.visible = True
+            self.game_string_row.visible = True
+            self.page.update()
+        else:
+            self.pricing_ring.visible = False
+            self.not_enough_offers.visible = True
+            self.page.update()
 
     def copy_string(self, e):
         pyperclip.copy(self.raw_game_string.value)
@@ -183,4 +193,5 @@ class Items(UserControl):
         self.quantity.visible = True
         self.quantity_input.value = ""
         self.input_row.visible = True
+        self.not_enough_offers.visible = False
         self.page.update()

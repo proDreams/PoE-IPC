@@ -16,26 +16,14 @@ from flet import (UserControl,
 from app import text_constants, utils
 
 
-class SettingsLang(UserControl):
+class Settings(UserControl):
     def __init__(self):
         super().__init__()
-        self.label = Text(text_constants.settings_language_text[text_constants.current_lang]["label"],
-                          size=18,
-                          weight="bold")
+        self.lang_label = Text(text_constants.settings_language_text[text_constants.current_lang]["label"],
+                               size=18,
+                               weight="bold")
 
-        self.current_label = Text(text_constants.settings_language_text[text_constants.current_lang]["current"],
-                                  width=150)
-        self.current_content = Text(
-            text_constants.settings_language_text[text_constants.current_lang][text_constants.current_lang])
-        self.current_row = Row(
-            [
-                self.current_label,
-                self.current_content,
-            ],
-            alignment=MainAxisAlignment.CENTER
-        )
-
-        self.change = Text(text_constants.settings_language_text[text_constants.current_lang]["change"])
+        self.lang_change = Text(text_constants.settings_language_text[text_constants.current_lang]["change"])
         self.lang_dd = Dropdown(
             width=250,
             options=[
@@ -44,44 +32,31 @@ class SettingsLang(UserControl):
                 dropdown.Option(key="en",
                                 text=text_constants.settings_language_text[text_constants.current_lang]["en"]),
             ],
+            label=text_constants.settings_language_text[text_constants.current_lang][text_constants.current_lang],
             border_radius=5,
             on_change=self.change_lang
         )
+        self.mode_label = Text(text_constants.settings_mode_text[text_constants.current_lang]["label"],
+                               size=18,
+                               weight="bold")
 
-    def change_lang(self, e):
-        with open('config.yaml') as f:
-            conf = yaml.safe_load(f)
-
-        conf['current_language'] = self.lang_dd.value
-
-        with open('config.yaml', 'w') as f:
-            yaml.safe_dump(conf, f)
-
-        dlg = AlertDialog(title=Text(text_constants.settings_dialog_text[self.lang_dd.value]["restart_app"]))
-        self.page.dialog = dlg
-        self.page.dialog.open = True
-        self.page.update()
-
-    def build(self):
-        return Column(
-            [self.label,
-             Divider(),
-             self.current_row,
-             Divider(),
-             self.change,
-             self.lang_dd,
-             ],
-            horizontal_alignment=CrossAxisAlignment.CENTER,
+        self.mode_change = Text(text_constants.settings_mode_text[text_constants.current_lang]["change"])
+        self.mode_dd = Dropdown(
+            width=200,
+            options=[
+                dropdown.Option(key="bulk",
+                                text=text_constants.settings_mode_text[text_constants.current_lang]["bulk"]),
+                dropdown.Option(key="retail",
+                                text=text_constants.settings_mode_text[text_constants.current_lang]["retail"]),
+            ],
+            label=text_constants.settings_mode_text[text_constants.current_lang][text_constants.current_mode],
+            border_radius=5,
+            on_change=self.change_mode
         )
-
-
-class SettingsLeague(UserControl):
-    def __init__(self):
-        super().__init__()
         self.leagues_list = text_constants.list_leagues
-        self.label = Text(text_constants.settings_league_text[text_constants.current_lang]["label"],
-                          size=18,
-                          weight="bold")
+        self.league_label = Text(text_constants.settings_league_text[text_constants.current_lang]["label"],
+                                 size=18,
+                                 weight="bold")
 
         self.actual_label = Text(text_constants.settings_league_text[text_constants.current_lang]["actual"],
                                  width=200)
@@ -94,47 +69,74 @@ class SettingsLeague(UserControl):
             alignment=MainAxisAlignment.CENTER
         )
 
-        self.selected_label = Text(text_constants.settings_league_text[text_constants.current_lang]["selected"],
-                                   width=200)
         self.selected_content = Text(text_constants.selected_league)
-        self.selected_row = Row(
-            [
-                self.selected_label,
-                self.selected_content
-            ],
-            alignment=MainAxisAlignment.CENTER
-        )
 
-        self.change = Text(text_constants.settings_league_text[text_constants.current_lang]["change"])
+        self.league_change = Text(text_constants.settings_league_text[text_constants.current_lang]["change"])
         self.leagues_dd = Dropdown(
             width=250,
             options=[dropdown.Option(league) for league in self.leagues_list],
             border_radius=5,
-            on_change=self.change_league
+            on_change=self.change_league,
+            label=text_constants.selected_league
         )
 
-    def build(self):
-        return Column([self.label,
-                       Divider(),
-                       self.actual_row,
-                       self.selected_row,
-                       self.change,
-                       self.leagues_dd,
-                       ],
-                      horizontal_alignment=CrossAxisAlignment.CENTER,
-                      )
+    def change_mode(self, e):
+        if text_constants.current_mode != self.mode_dd.value:
+            with open('config.yaml') as f:
+                conf = yaml.safe_load(f)
+
+            conf['trade_mode'] = self.mode_dd.value
+            text_constants.current_mode = self.mode_dd.value
+
+            with open('config.yaml', 'w') as f:
+                yaml.safe_dump(conf, f)
+            self.update()
+
+    def change_lang(self, e):
+        if text_constants.current_lang != self.lang_dd.value:
+            with open('config.yaml') as f:
+                conf = yaml.safe_load(f)
+
+            conf['current_language'] = self.lang_dd.value
+
+            with open('config.yaml', 'w') as f:
+                yaml.safe_dump(conf, f)
+
+            dlg = AlertDialog(title=Text(text_constants.settings_dialog_text[self.lang_dd.value]["restart_app"]))
+            self.page.dialog = dlg
+            self.page.dialog.open = True
+            self.page.update()
 
     def change_league(self, e):
-        with open('config.yaml') as f:
-            conf = yaml.safe_load(f)
+        if text_constants.selected_league != self.leagues_dd.value:
+            with open('config.yaml') as f:
+                conf = yaml.safe_load(f)
 
-        conf['selected_league'] = self.leagues_dd.value
-        text_constants.selected_league = self.leagues_dd.value
+            conf['selected_league'] = self.leagues_dd.value
+            text_constants.selected_league = self.leagues_dd.value
 
-        with open('config.yaml', 'w') as f:
-            yaml.safe_dump(conf, f)
-        self.selected_content.value = text_constants.selected_league
-        self.update()
+            with open('config.yaml', 'w') as f:
+                yaml.safe_dump(conf, f)
+            self.selected_content.value = text_constants.selected_league
+            self.update()
+
+    def build(self):
+        return Column(
+            [self.lang_label,
+             self.lang_change,
+             self.lang_dd,
+             Divider(),
+             self.mode_label,
+             self.mode_change,
+             self.mode_dd,
+             Divider(),
+             self.league_label,
+             self.actual_row,
+             self.league_change,
+             self.leagues_dd,
+             ],
+            horizontal_alignment=CrossAxisAlignment.CENTER,
+        )
 
 
 class SettingsVersion(UserControl):
@@ -265,60 +267,3 @@ class SettingsVersion(UserControl):
         text_constants.required = text_constants.check_required()
         self.update_required_content.value = text_constants.required
         self.update()
-
-
-class SettingsMode(UserControl):
-    def __init__(self):
-        super().__init__()
-        self.label = Text(text_constants.settings_mode_text[text_constants.current_lang]["label"],
-                          size=18,
-                          weight="bold")
-
-        self.current_label = Text(text_constants.settings_mode_text[text_constants.current_lang]["current"],
-                                  width=200)
-        self.current_content = Text(
-            text_constants.settings_mode_text[text_constants.current_lang][text_constants.current_mode])
-        self.current_row = Row(
-            [
-                self.current_label,
-                self.current_content
-            ],
-            alignment=MainAxisAlignment.CENTER
-        )
-
-        self.change = Text(text_constants.settings_mode_text[text_constants.current_lang]["change"])
-        self.mode_dd = Dropdown(
-            width=200,
-            options=[
-                dropdown.Option(key="bulk",
-                                text=text_constants.settings_mode_text[text_constants.current_lang]["bulk"]),
-                dropdown.Option(key="retail",
-                                text=text_constants.settings_mode_text[text_constants.current_lang]["retail"]),
-            ],
-            border_radius=5,
-            on_change=self.change_mode
-        )
-
-    def change_mode(self, e):
-        with open('config.yaml') as f:
-            conf = yaml.safe_load(f)
-
-        conf['trade_mode'] = self.mode_dd.value
-        text_constants.current_mode = self.mode_dd.value
-
-        with open('config.yaml', 'w') as f:
-            yaml.safe_dump(conf, f)
-        self.current_content.value = text_constants.settings_mode_text[text_constants.current_lang][
-            text_constants.current_mode]
-        self.update()
-
-    def build(self):
-        return Column([self.label,
-                       Divider(),
-                       self.current_row,
-                       Divider(),
-                       self.change,
-                       self.mode_dd,
-                       ],
-                      horizontal_alignment=CrossAxisAlignment.CENTER,
-                      )

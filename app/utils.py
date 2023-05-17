@@ -135,7 +135,10 @@ def check_price(want, league, quant=1, have='chaos'):
         curr = (respond['result'][dd]['listing']['offers'][0]['item']['amount'])
         price_catalog.append(chaos / curr)
     price_catalog = price_catalog[:20]
-    total_price = round((stat.mean(price_catalog[2:]) + stat.median(price_catalog[2:])) / 2, 4)
+    try:
+        total_price = round((stat.mean(price_catalog[2:]) + stat.median(price_catalog[2:])) / 2, 4)
+    except stat.StatisticsError:
+        return None
     total = float(quant) * total_price
     total_x = int(total)
     total_y = total % 1

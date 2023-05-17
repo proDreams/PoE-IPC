@@ -61,6 +61,26 @@ class About(UserControl):
             ]
         )
 
+        self.telegram_label = Text(text_constants.about_text[text_constants.current_lang]["telegram"],
+                                   width=250)
+        self.telegram_content = Text(
+            spans=[
+                TextSpan(
+                    "@proDreams",
+                    TextStyle(decoration=TextDecoration.UNDERLINE),
+                    url="https://t.me/proDreams",
+                    on_enter=self.highlight_link,
+                    on_exit=self.unhighlight_link,
+                ),
+            ],
+        )
+        self.telegram_row = Row(
+            [
+                self.telegram_label,
+                self.telegram_content,
+            ]
+        )
+
     def build(self):
         self.expand = True
         return Column(
@@ -70,7 +90,8 @@ class About(UserControl):
              self.version_row,
              self.author_row,
              Divider(),
-             self.github_row
+             self.github_row,
+             self.telegram_row,
              ],
             horizontal_alignment=CrossAxisAlignment.CENTER,
         )
