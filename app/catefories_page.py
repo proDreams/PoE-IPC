@@ -17,12 +17,12 @@ class Categories(UserControl):
             temp = ElevatedButton(content=Container(
                 Row(
                     [
-                        Text(f"{number}. ", size=18),
-                        Text(category, size=18),
+                        Text(f"{number}. ", size=16),
+                        Text(category, size=16),
                     ]
                 ),
-                width=300,
-                height=80,
+                width=250,
+                height=70,
             ),
 
                 on_click=self.open_category

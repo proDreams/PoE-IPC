@@ -4,16 +4,17 @@ from app import text_constants
 from app.about_page import About
 from app.catefories_page import Categories
 from app.items_page import Items
-from app.settings_page import SettingsLang, SettingsLeague, SettingsVersion, SettingsMode
+from app.settings_page import Settings, SettingsVersion
 
 
 def main(page: ft.Page):
     def app_bar(title: str = text_constants.app_bar_text[text_constants.current_lang]["title"]):
         return ft.AppBar(
             title=ft.Text(title),
-            center_title=False,
+            center_title=True,
             bgcolor=ft.colors.SURFACE_VARIANT,
             actions=[
+                Settings().selected_content,
                 ft.IconButton(ft.icons.INFO, on_click=lambda _: page.go("/about")),
                 ft.IconButton(ft.icons.SETTINGS, on_click=lambda _: page.go("/settings")),
             ],
@@ -44,7 +45,7 @@ def main(page: ft.Page):
                         Items(),
                     ],
                     padding=20,
-                    # horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                    horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                     scroll=ft.ScrollMode.AUTO
                 )
             )
@@ -87,30 +88,9 @@ def main(page: ft.Page):
                                     padding=10
                                 ),
                                 ft.Container(
-                                    SettingsLang(),
+                                    Settings(),
                                     bgcolor=ft.colors.SURFACE_VARIANT,
-                                    height=300,
-                                    width=450,
-                                    border_radius=10,
-                                    padding=10
-                                ),
-                            ],
-                            alignment="center"
-                        ),
-                        ft.Row(
-                            [
-                                ft.Container(
-                                    SettingsMode(),
-                                    bgcolor=ft.colors.SURFACE_VARIANT,
-                                    height=250,
-                                    width=450,
-                                    border_radius=10,
-                                    padding=10
-                                ),
-                                ft.Container(
-                                    SettingsLeague(),
-                                    bgcolor=ft.colors.SURFACE_VARIANT,
-                                    height=250,
+                                    height=500,
                                     width=450,
                                     border_radius=10,
                                     padding=10
@@ -129,8 +109,9 @@ def main(page: ft.Page):
         page.go(top_view.route)
 
     page.title = "Path of Exile Items Price Converter " + text_constants.version
-    page.window_width = 1500
-    page.window_resizable = False
+    page.window_width = 1200
+    page.window_height = 650
+    # page.window_resizable = False
     page.on_route_change = route_change
     page.on_view_pop = view_pop
     page.go(page.route)
