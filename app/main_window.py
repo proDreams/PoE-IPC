@@ -61,7 +61,7 @@ def main(page: ft.Page):
                                     About(),
                                     bgcolor=ft.colors.SURFACE_VARIANT,
                                     height=300,
-                                    width=700,
+                                    width=800,
                                     border_radius=10,
                                     padding=30
                                 ),

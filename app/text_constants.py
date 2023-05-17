@@ -124,14 +124,16 @@ about_text = {"ru": {"label": "О программе",
                      "version": "Версия приложения:",
                      "author": "Автор:",
                      "author_name": "Иван Ашихмин",
-                     "github": "Страница проекта:"},
+                     "github": "Страница проекта:",
+                     "telegram": "Связаться с автором через Telegram:"},
               "en": {"label": "About",
                      "description":
                          "Application for calculating the optimal ratio of the price of an item to chaos orbs",
                      "version": "Application version:",
                      "author": "Author:",
                      "author_name": "Ivan Ashikhmin",
-                     "github": "Project page:"}
+                     "github": "Project page:",
+                     "telegram": "Contact with Author via Telegram:"}
               }
 
 app_bar_text = {"ru": {"title": "Path of Exile Items Price Converter",
