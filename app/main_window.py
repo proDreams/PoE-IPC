@@ -33,7 +33,8 @@ def main(page: ft.Page):
                     Categories(),
                 ],
                 padding=20,
-                horizontal_alignment=ft.CrossAxisAlignment.CENTER
+                horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                scroll=ft.ScrollMode.AUTO
             )
         )
         if page.route == "/category":
