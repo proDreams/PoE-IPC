@@ -8,7 +8,9 @@ from app.settings_page import Settings, SettingsVersion
 
 
 def main(page: ft.Page):
-    def app_bar(title: str = text_constants.app_bar_text[text_constants.current_lang]["title"]):
+    def app_bar(
+        title: str = text_constants.app_bar_text[text_constants.current_lang]["title"],
+    ):
         return ft.AppBar(
             title=ft.Text(title),
             center_title=True,
@@ -16,7 +18,9 @@ def main(page: ft.Page):
             actions=[
                 Settings().selected_content,
                 ft.IconButton(ft.icons.INFO, on_click=lambda _: page.go("/about")),
-                ft.IconButton(ft.icons.SETTINGS, on_click=lambda _: page.go("/settings")),
+                ft.IconButton(
+                    ft.icons.SETTINGS, on_click=lambda _: page.go("/settings")
+                ),
             ],
         )
 
@@ -27,14 +31,18 @@ def main(page: ft.Page):
                 "/",
                 [
                     app_bar(),
-                    ft.Text(text_constants.main_text[text_constants.current_lang]["select_category"],
-                            size=18,
-                            weight="bold"),
+                    ft.Text(
+                        text_constants.main_text[text_constants.current_lang][
+                            "select_category"
+                        ],
+                        size=18,
+                        weight="bold",
+                    ),
                     Categories(),
                 ],
                 padding=20,
                 horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-                scroll=ft.ScrollMode.AUTO
+                scroll=ft.ScrollMode.AUTO,
             )
         )
         if page.route == "/category":
@@ -47,7 +55,7 @@ def main(page: ft.Page):
                     ],
                     padding=20,
                     horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-                    scroll=ft.ScrollMode.AUTO
+                    scroll=ft.ScrollMode.AUTO,
                 )
             )
         if page.route == "/about":
@@ -55,7 +63,11 @@ def main(page: ft.Page):
                 ft.View(
                     "/about",
                     [
-                        app_bar(text_constants.app_bar_text[text_constants.current_lang]["about"]),
+                        app_bar(
+                            text_constants.app_bar_text[text_constants.current_lang][
+                                "about"
+                            ]
+                        ),
                         ft.Row(
                             [
                                 ft.Container(
@@ -64,10 +76,10 @@ def main(page: ft.Page):
                                     height=300,
                                     width=800,
                                     border_radius=10,
-                                    padding=30
+                                    padding=30,
                                 ),
                             ],
-                            alignment="center"
+                            alignment="center",
                         ),
                     ],
                 )
@@ -77,7 +89,11 @@ def main(page: ft.Page):
                 ft.View(
                     "/settings",
                     [
-                        app_bar(text_constants.app_bar_text[text_constants.current_lang]["settings"]),
+                        app_bar(
+                            text_constants.app_bar_text[text_constants.current_lang][
+                                "settings"
+                            ]
+                        ),
                         ft.Row(
                             [
                                 ft.Container(
@@ -86,7 +102,7 @@ def main(page: ft.Page):
                                     height=300,
                                     width=450,
                                     border_radius=10,
-                                    padding=10
+                                    padding=10,
                                 ),
                                 ft.Container(
                                     Settings(),
@@ -94,10 +110,10 @@ def main(page: ft.Page):
                                     height=500,
                                     width=450,
                                     border_radius=10,
-                                    padding=10
+                                    padding=10,
                                 ),
                             ],
-                            alignment="center"
+                            alignment="center",
                         ),
                     ],
                 )
