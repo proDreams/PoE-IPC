@@ -1,13 +1,15 @@
-from flet import (UserControl,
-                  Text,
-                  Column,
-                  Divider,
-                  CrossAxisAlignment,
-                  Row,
-                  TextSpan,
-                  TextDecoration,
-                  TextStyle,
-                  colors)
+from flet import (
+    UserControl,
+    Text,
+    Column,
+    Divider,
+    CrossAxisAlignment,
+    Row,
+    TextSpan,
+    TextDecoration,
+    TextStyle,
+    colors,
+)
 
 from app import text_constants
 
@@ -15,14 +17,19 @@ from app import text_constants
 class About(UserControl):
     def __init__(self):
         super().__init__()
-        self.label = Text(text_constants.about_text[text_constants.current_lang]["label"],
-                          size=18,
-                          weight="bold")
-        self.description = Text(text_constants.about_text[text_constants.current_lang]["description"],
-                                size=16)
+        self.label = Text(
+            text_constants.about_text[text_constants.current_lang]["label"],
+            size=18,
+            weight="bold",
+        )
+        self.description = Text(
+            text_constants.about_text[text_constants.current_lang]["description"],
+            size=16,
+        )
 
-        self.version_label = Text(text_constants.about_text[text_constants.current_lang]["version"],
-                                  width=250)
+        self.version_label = Text(
+            text_constants.about_text[text_constants.current_lang]["version"], width=250
+        )
         self.version_content = Text(text_constants.version)
         self.version_row = Row(
             [
@@ -31,9 +38,12 @@ class About(UserControl):
             ],
         )
 
-        self.author_label = Text(text_constants.about_text[text_constants.current_lang]["author"],
-                                 width=250)
-        self.author_content = Text(text_constants.about_text[text_constants.current_lang]["author_name"])
+        self.author_label = Text(
+            text_constants.about_text[text_constants.current_lang]["author"], width=250
+        )
+        self.author_content = Text(
+            text_constants.about_text[text_constants.current_lang]["author_name"]
+        )
         self.author_row = Row(
             [
                 self.author_label,
@@ -41,8 +51,9 @@ class About(UserControl):
             ],
         )
 
-        self.github_label = Text(text_constants.about_text[text_constants.current_lang]["github"],
-                                 width=250)
+        self.github_label = Text(
+            text_constants.about_text[text_constants.current_lang]["github"], width=250
+        )
         self.github_content = Text(
             spans=[
                 TextSpan(
@@ -61,8 +72,10 @@ class About(UserControl):
             ]
         )
 
-        self.telegram_label = Text(text_constants.about_text[text_constants.current_lang]["telegram"],
-                                   width=250)
+        self.telegram_label = Text(
+            text_constants.about_text[text_constants.current_lang]["telegram"],
+            width=250,
+        )
         self.telegram_content = Text(
             spans=[
                 TextSpan(
@@ -84,15 +97,16 @@ class About(UserControl):
     def build(self):
         self.expand = True
         return Column(
-            [self.label,
-             self.description,
-             Divider(),
-             self.version_row,
-             self.author_row,
-             Divider(),
-             self.github_row,
-             self.telegram_row,
-             ],
+            [
+                self.label,
+                self.description,
+                Divider(),
+                self.version_row,
+                self.author_row,
+                Divider(),
+                self.github_row,
+                self.telegram_row,
+            ],
             horizontal_alignment=CrossAxisAlignment.CENTER,
         )
 
