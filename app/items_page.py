@@ -24,7 +24,7 @@ class Items(UserControl):
             size=18,
             visible=False,
         )
-        self.bs = BottomSheet()
+        self.bs = BottomSheet(content=self)
         self.quantity_input = TextField(
             label=text_constants.pricer_text[text_constants.current_lang]["quantity"],
             height=60,

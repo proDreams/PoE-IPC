@@ -1,5 +1,5 @@
 {
-    "League": "Necropolis",
+    "League": "Settlers",
     "en": {
         "Currency": {
             "Orb of Alteration": {
@@ -306,6 +306,30 @@
                 "item_alt_name": "hinekoras-lock",
                 "img": "assets/img/Currency/hinekoras-lock.png"
             },
+            "Maven's Chisel of Procurement": {
+                "item_alt_name": "mavens-chisel-of-procurement",
+                "img": "assets/img/Currency/mavens-chisel-of-procurement.png"
+            },
+            "Maven's Chisel of Proliferation": {
+                "item_alt_name": "mavens-chisel-of-proliferation",
+                "img": "assets/img/Currency/mavens-chisel-of-proliferation.png"
+            },
+            "Maven's Chisel of Divination": {
+                "item_alt_name": "mavens-chisel-of-divination",
+                "img": "assets/img/Currency/mavens-chisel-of-divination.png"
+            },
+            "Maven's Chisel of Scarabs": {
+                "item_alt_name": "mavens-chisel-of-scarabs",
+                "img": "assets/img/Currency/mavens-chisel-of-scarabs.png"
+            },
+            "Maven's Chisel of Avarice": {
+                "item_alt_name": "mavens-chisel-of-avarice",
+                "img": "assets/img/Currency/mavens-chisel-of-avarice.png"
+            },
+            "Reflecting Mist": {
+                "item_alt_name": "reflecting-mist",
+                "img": "assets/img/Currency/reflecting-mist.png"
+            },
             "Chaos Shard": {
                 "item_alt_name": "chaos-shard",
                 "img": "assets/img/Currency/chaos-shard.png"
@@ -556,9 +580,9 @@
                 "item_alt_name": "ritual-vessel",
                 "img": "assets/img/Fragments & Scarabs/ritual-vessel.png"
             },
-            "The Maven's Writ": {
-                "item_alt_name": "the-mavens-writ",
-                "img": "assets/img/Fragments & Scarabs/the-mavens-writ.png"
+            "An Audience With The King": {
+                "item_alt_name": "an-audience-with-the-king",
+                "img": "assets/img/Fragments & Scarabs/an-audience-with-the-king.png"
             },
             "Ancient Reliquary Key": {
                 "item_alt_name": "ancient-reliquary-key",
@@ -700,17 +724,17 @@
                 "item_alt_name": "chayulas-flawless-breachstone",
                 "img": "assets/img/Fragments & Scarabs/chayulas-flawless-breachstone.png"
             },
-            "Reliquary Scarab": {
-                "item_alt_name": "reliquary-scarab",
-                "img": "assets/img/Fragments & Scarabs/reliquary-scarab.png"
+            "Titanic Scarab": {
+                "item_alt_name": "titanic-scarab",
+                "img": "assets/img/Fragments & Scarabs/titanic-scarab.png"
             },
-            "Reliquary Scarab of Overlords": {
-                "item_alt_name": "reliquary-scarab-of-overlords",
-                "img": "assets/img/Fragments & Scarabs/reliquary-scarab-of-overlords.png"
+            "Titanic Scarab of Treasures": {
+                "item_alt_name": "titanic-scarab-of-treasures",
+                "img": "assets/img/Fragments & Scarabs/titanic-scarab-of-treasures.png"
             },
-            "Reliquary Scarab of Vision": {
-                "item_alt_name": "reliquary-scarab-of-vision",
-                "img": "assets/img/Fragments & Scarabs/reliquary-scarab-of-vision.png"
+            "Titanic Scarab of Legend": {
+                "item_alt_name": "titanic-scarab-of-legend",
+                "img": "assets/img/Fragments & Scarabs/titanic-scarab-of-legend.png"
             },
             "Sulphite Scarab": {
                 "item_alt_name": "sulphite-scarab",
@@ -724,17 +748,17 @@
                 "item_alt_name": "sulphite-scarab-of-fumes",
                 "img": "assets/img/Fragments & Scarabs/sulphite-scarab-of-fumes.png"
             },
-            "Divination Scarab": {
-                "item_alt_name": "divination-scarab",
-                "img": "assets/img/Fragments & Scarabs/divination-scarab.png"
+            "Divination Scarab of The Cloister": {
+                "item_alt_name": "divination-scarab-of-the-cloister",
+                "img": "assets/img/Fragments & Scarabs/divination-scarab-of-the-cloister.png"
             },
-            "Divination Scarab of Curation": {
-                "item_alt_name": "divination-scarab-of-curation",
-                "img": "assets/img/Fragments & Scarabs/divination-scarab-of-curation.png"
+            "Divination Scarab of Plenty": {
+                "item_alt_name": "divination-scarab-of-plenty",
+                "img": "assets/img/Fragments & Scarabs/divination-scarab-of-plenty.png"
             },
-            "Divination Scarab of Completion": {
-                "item_alt_name": "divination-scarab-of-completion",
-                "img": "assets/img/Fragments & Scarabs/divination-scarab-of-completion.png"
+            "Divination Scarab of Pilfering": {
+                "item_alt_name": "divination-scarab-of-pilfering",
+                "img": "assets/img/Fragments & Scarabs/divination-scarab-of-pilfering.png"
             },
             "Torment Scarab": {
                 "item_alt_name": "torment-scarab",
@@ -747,6 +771,10 @@
             "Torment Scarab of Release": {
                 "item_alt_name": "torment-scarab-of-release",
                 "img": "assets/img/Fragments & Scarabs/torment-scarab-of-release.png"
+            },
+            "Torment Scarab of Possession": {
+                "item_alt_name": "torment-scarab-of-possession",
+                "img": "assets/img/Fragments & Scarabs/torment-scarab-of-possession.png"
             },
             "Anarchy Scarab": {
                 "item_alt_name": "anarchy-scarab",
@@ -764,9 +792,9 @@
                 "item_alt_name": "ritual-scarab-of-selectiveness",
                 "img": "assets/img/Fragments & Scarabs/ritual-scarab-of-selectiveness.png"
             },
-            "Ritual Scarab of Recognition": {
-                "item_alt_name": "ritual-scarab-of-recognition",
-                "img": "assets/img/Fragments & Scarabs/ritual-scarab-of-recognition.png"
+            "Ritual Scarab of Wisps": {
+                "item_alt_name": "ritual-scarab-of-wisps",
+                "img": "assets/img/Fragments & Scarabs/ritual-scarab-of-wisps.png"
             },
             "Ritual Scarab of Abundance": {
                 "item_alt_name": "ritual-scarab-of-abundance",
@@ -820,9 +848,9 @@
                 "item_alt_name": "harbinger-scarab",
                 "img": "assets/img/Fragments & Scarabs/harbinger-scarab.png"
             },
-            "Harbinger Scarab of Discernment": {
-                "item_alt_name": "harbinger-scarab-of-discernment",
-                "img": "assets/img/Fragments & Scarabs/harbinger-scarab-of-discernment.png"
+            "Harbinger Scarab of Obelisks": {
+                "item_alt_name": "harbinger-scarab-of-obelisks",
+                "img": "assets/img/Fragments & Scarabs/harbinger-scarab-of-obelisks.png"
             },
             "Harbinger Scarab of Regency": {
                 "item_alt_name": "harbinger-scarab-of-regency",
@@ -848,6 +876,10 @@
                 "item_alt_name": "abyss-scarab-of-edifice",
                 "img": "assets/img/Fragments & Scarabs/abyss-scarab-of-edifice.png"
             },
+            "Abyss Scarab of Profound Depth": {
+                "item_alt_name": "abyss-scarab-of-profound-depth",
+                "img": "assets/img/Fragments & Scarabs/abyss-scarab-of-profound-depth.png"
+            },
             "Essence Scarab": {
                 "item_alt_name": "essence-scarab",
                 "img": "assets/img/Fragments & Scarabs/essence-scarab.png"
@@ -864,17 +896,21 @@
                 "item_alt_name": "essence-scarab-of-calcification",
                 "img": "assets/img/Fragments & Scarabs/essence-scarab-of-calcification.png"
             },
+            "Essence Scarab of Adaptation": {
+                "item_alt_name": "essence-scarab-of-adaptation",
+                "img": "assets/img/Fragments & Scarabs/essence-scarab-of-adaptation.png"
+            },
             "Domination Scarab": {
                 "item_alt_name": "domination-scarab",
                 "img": "assets/img/Fragments & Scarabs/domination-scarab.png"
             },
-            "Domination Scarab of Abnormality": {
-                "item_alt_name": "domination-scarab-of-abnormality",
-                "img": "assets/img/Fragments & Scarabs/domination-scarab-of-abnormality.png"
+            "Domination Scarab of Apparitions": {
+                "item_alt_name": "domination-scarab-of-apparitions",
+                "img": "assets/img/Fragments & Scarabs/domination-scarab-of-apparitions.png"
             },
-            "Domination Scarab of Teachings": {
-                "item_alt_name": "domination-scarab-of-teachings",
-                "img": "assets/img/Fragments & Scarabs/domination-scarab-of-teachings.png"
+            "Domination Scarab of Evolution": {
+                "item_alt_name": "domination-scarab-of-evolution",
+                "img": "assets/img/Fragments & Scarabs/domination-scarab-of-evolution.png"
             },
             "Domination Scarab of Terrors": {
                 "item_alt_name": "domination-scarab-of-terrors",
@@ -920,13 +956,17 @@
                 "item_alt_name": "blight-scarab-of-bounty",
                 "img": "assets/img/Fragments & Scarabs/blight-scarab-of-bounty.png"
             },
-            "Blight Scarab of Oils": {
-                "item_alt_name": "blight-scarab-of-oils",
-                "img": "assets/img/Fragments & Scarabs/blight-scarab-of-oils.png"
+            "Blight Scarab of the Blightheart": {
+                "item_alt_name": "blight-scarab-of-the-blightheart",
+                "img": "assets/img/Fragments & Scarabs/blight-scarab-of-the-blightheart.png"
             },
             "Blight Scarab of Blooming": {
                 "item_alt_name": "blight-scarab-of-blooming",
                 "img": "assets/img/Fragments & Scarabs/blight-scarab-of-blooming.png"
+            },
+            "Blight Scarab of Invigoration": {
+                "item_alt_name": "blight-scarab-of-invigoration",
+                "img": "assets/img/Fragments & Scarabs/blight-scarab-of-invigoration.png"
             },
             "Breach Scarab": {
                 "item_alt_name": "breach-scarab",
@@ -948,6 +988,10 @@
                 "item_alt_name": "breach-scarab-of-snares",
                 "img": "assets/img/Fragments & Scarabs/breach-scarab-of-snares.png"
             },
+            "Breach Scarab of Resonant Cascade": {
+                "item_alt_name": "breach-scarab-of-resonant-cascade",
+                "img": "assets/img/Fragments & Scarabs/breach-scarab-of-resonant-cascade.png"
+            },
             "Legion Scarab": {
                 "item_alt_name": "legion-scarab",
                 "img": "assets/img/Fragments & Scarabs/legion-scarab.png"
@@ -968,13 +1012,13 @@
                 "item_alt_name": "legion-scarab-of-eternal-conflict",
                 "img": "assets/img/Fragments & Scarabs/legion-scarab-of-eternal-conflict.png"
             },
-            "Cartography Scarab": {
-                "item_alt_name": "cartography-scarab",
-                "img": "assets/img/Fragments & Scarabs/cartography-scarab.png"
+            "Cartography Scarab of Escalation": {
+                "item_alt_name": "cartography-scarab-of-escalation",
+                "img": "assets/img/Fragments & Scarabs/cartography-scarab-of-escalation.png"
             },
-            "Cartography Scarab of Ascension": {
-                "item_alt_name": "cartography-scarab-of-ascension",
-                "img": "assets/img/Fragments & Scarabs/cartography-scarab-of-ascension.png"
+            "Cartography Scarab of Risk": {
+                "item_alt_name": "cartography-scarab-of-risk",
+                "img": "assets/img/Fragments & Scarabs/cartography-scarab-of-risk.png"
             },
             "Cartography Scarab of Singularity": {
                 "item_alt_name": "cartography-scarab-of-singularity",
@@ -984,9 +1028,9 @@
                 "item_alt_name": "cartography-scarab-of-corruption",
                 "img": "assets/img/Fragments & Scarabs/cartography-scarab-of-corruption.png"
             },
-            "Cartography Scarab of Duplication": {
-                "item_alt_name": "cartography-scarab-of-duplication",
-                "img": "assets/img/Fragments & Scarabs/cartography-scarab-of-duplication.png"
+            "Cartography Scarab of the Multitude": {
+                "item_alt_name": "cartography-scarab-of-the-multitude",
+                "img": "assets/img/Fragments & Scarabs/cartography-scarab-of-the-multitude.png"
             },
             "Beyond Scarab": {
                 "item_alt_name": "beyond-scarab",
@@ -1096,9 +1140,9 @@
                 "item_alt_name": "scarab-of-adversaries",
                 "img": "assets/img/Fragments & Scarabs/scarab-of-adversaries.png"
             },
-            "Mysterious Scarab": {
-                "item_alt_name": "mysterious-scarab",
-                "img": "assets/img/Fragments & Scarabs/mysterious-scarab.png"
+            "Scarab of Divinity": {
+                "item_alt_name": "scarab-of-divinity",
+                "img": "assets/img/Fragments & Scarabs/scarab-of-divinity.png"
             },
             "Scarab of Hunted Traitors": {
                 "item_alt_name": "scarab-of-hunted-traitors",
@@ -1107,6 +1151,26 @@
             "Scarab of Stability": {
                 "item_alt_name": "scarab-of-stability",
                 "img": "assets/img/Fragments & Scarabs/scarab-of-stability.png"
+            },
+            "Scarab of the Commander": {
+                "item_alt_name": "scarab-of-the-commander",
+                "img": "assets/img/Fragments & Scarabs/scarab-of-the-commander.png"
+            },
+            "Scarab of Evolution": {
+                "item_alt_name": "scarab-of-evolution",
+                "img": "assets/img/Fragments & Scarabs/scarab-of-evolution.png"
+            },
+            "Scarab of Wisps": {
+                "item_alt_name": "scarab-of-wisps",
+                "img": "assets/img/Fragments & Scarabs/scarab-of-wisps.png"
+            },
+            "Scarab of Bisection": {
+                "item_alt_name": "scarab-of-bisection",
+                "img": "assets/img/Fragments & Scarabs/scarab-of-bisection.png"
+            },
+            "Scarab of Radiant Storms": {
+                "item_alt_name": "scarab-of-radiant-storms",
+                "img": "assets/img/Fragments & Scarabs/scarab-of-radiant-storms.png"
             },
             "Horned Scarab of Bloodlines": {
                 "item_alt_name": "horned-scarab-of-bloodlines",
@@ -1135,6 +1199,10 @@
             "Horned Scarab of Pandemonium": {
                 "item_alt_name": "horned-scarab-of-pandemonium",
                 "img": "assets/img/Fragments & Scarabs/horned-scarab-of-pandemonium.png"
+            },
+            "The Maven's Writ": {
+                "item_alt_name": "the-mavens-writ",
+                "img": "assets/img/Fragments & Scarabs/the-mavens-writ.png"
             },
             "Writhing Invitation": {
                 "item_alt_name": "writhing-invitation",
@@ -1199,6 +1267,48 @@
             "Ritual Splinter": {
                 "item_alt_name": "ritual-splinter",
                 "img": "assets/img/Fragments & Scarabs/ritual-splinter.png"
+            }
+        },
+        "Kalguuran Runes": {
+            "Sun Rune": {
+                "item_alt_name": "sun-rune",
+                "img": "assets/img/Kalguuran Runes/sun-rune.png"
+            },
+            "Bound Rune": {
+                "item_alt_name": "bound-rune",
+                "img": "assets/img/Kalguuran Runes/bound-rune.png"
+            },
+            "Life Rune": {
+                "item_alt_name": "life-rune",
+                "img": "assets/img/Kalguuran Runes/life-rune.png"
+            },
+            "War Rune": {
+                "item_alt_name": "war-rune",
+                "img": "assets/img/Kalguuran Runes/war-rune.png"
+            },
+            "River Rune": {
+                "item_alt_name": "river-rune",
+                "img": "assets/img/Kalguuran Runes/river-rune.png"
+            },
+            "Bounty Rune": {
+                "item_alt_name": "bounty-rune",
+                "img": "assets/img/Kalguuran Runes/bounty-rune.png"
+            },
+            "Journey Rune": {
+                "item_alt_name": "journey-rune",
+                "img": "assets/img/Kalguuran Runes/journey-rune.png"
+            },
+            "Mountain Rune": {
+                "item_alt_name": "mountain-rune",
+                "img": "assets/img/Kalguuran Runes/mountain-rune.png"
+            },
+            "Time Rune": {
+                "item_alt_name": "time-rune",
+                "img": "assets/img/Kalguuran Runes/time-rune.png"
+            },
+            "Power Rune": {
+                "item_alt_name": "power-rune",
+                "img": "assets/img/Kalguuran Runes/power-rune.png"
             }
         },
         "Tattoos & Omens": {
@@ -2026,6 +2136,10 @@
                 "item_alt_name": "golden-oil",
                 "img": "assets/img/Oils & Extractor/golden-oil.png"
             },
+            "Prismatic Oil": {
+                "item_alt_name": "prismatic-oil",
+                "img": "assets/img/Oils & Extractor/prismatic-oil.png"
+            },
             "Tainted Oil": {
                 "item_alt_name": "tainted-oil",
                 "img": "assets/img/Oils & Extractor/tainted-oil.png"
@@ -2214,9 +2328,9 @@
                 "item_alt_name": "bound-fossil",
                 "img": "assets/img/Fossils & Resonators/bound-fossil.png"
             },
-            "Perfect Fossil": {
-                "item_alt_name": "perfect-fossil",
-                "img": "assets/img/Fossils & Resonators/perfect-fossil.png"
+            "Opulent Fossil": {
+                "item_alt_name": "opulent-fossil",
+                "img": "assets/img/Fossils & Resonators/opulent-fossil.png"
             },
             "Deft Fossil": {
                 "item_alt_name": "deft-fossil",
@@ -2458,7 +2572,7 @@
             }
         },
         "Beasts": {
-            "Any Yellow Beast": {
+            "Yellow Beast": {
                 "item_alt_name": "beast",
                 "img": "None"
             },
@@ -2734,7 +2848,7 @@
                 "item_alt_name": "craiceann-first-of-the-deep",
                 "img": "None"
             },
-            "The Black M\u00f3rrigan": {
+            "Black M\u00f3rrigan": {
                 "item_alt_name": "the-black-morrigan",
                 "img": "None"
             },
@@ -3276,6 +3390,30 @@
                 "item_alt_name": "hinekoras-lock",
                 "img": "assets/img/\u0412\u0430\u043b\u044e\u0442\u0430/hinekoras-lock.png"
             },
+            "\u0420\u0435\u0437\u0435\u0446 \u041c\u0435\u0439\u0432\u0435\u043d \u0434\u043e\u0431\u044b\u0447\u0438": {
+                "item_alt_name": "mavens-chisel-of-procurement",
+                "img": "assets/img/\u0412\u0430\u043b\u044e\u0442\u0430/mavens-chisel-of-procurement.png"
+            },
+            "\u0420\u0435\u0437\u0435\u0446 \u041c\u0435\u0439\u0432\u0435\u043d \u0440\u0430\u0437\u043c\u043d\u043e\u0436\u0435\u043d\u0438\u044f": {
+                "item_alt_name": "mavens-chisel-of-proliferation",
+                "img": "assets/img/\u0412\u0430\u043b\u044e\u0442\u0430/mavens-chisel-of-proliferation.png"
+            },
+            "\u0420\u0435\u0437\u0435\u0446 \u041c\u0435\u0439\u0432\u0435\u043d \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f": {
+                "item_alt_name": "mavens-chisel-of-divination",
+                "img": "assets/img/\u0412\u0430\u043b\u044e\u0442\u0430/mavens-chisel-of-divination.png"
+            },
+            "\u0420\u0435\u0437\u0435\u0446 \u041c\u0435\u0439\u0432\u0435\u043d \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0435\u0432": {
+                "item_alt_name": "mavens-chisel-of-scarabs",
+                "img": "assets/img/\u0412\u0430\u043b\u044e\u0442\u0430/mavens-chisel-of-scarabs.png"
+            },
+            "\u0420\u0435\u0437\u0435\u0446 \u041c\u0435\u0439\u0432\u0435\u043d \u0430\u043b\u0447\u043d\u043e\u0441\u0442\u0438": {
+                "item_alt_name": "mavens-chisel-of-avarice",
+                "img": "assets/img/\u0412\u0430\u043b\u044e\u0442\u0430/mavens-chisel-of-avarice.png"
+            },
+            "\u041e\u0442\u0440\u0430\u0436\u0430\u044e\u0449\u0438\u0439 \u0442\u0443\u043c\u0430\u043d": {
+                "item_alt_name": "reflecting-mist",
+                "img": "assets/img/\u0412\u0430\u043b\u044e\u0442\u0430/reflecting-mist.png"
+            },
             "\u041e\u0441\u043a\u043e\u043b\u043e\u043a \u0445\u0430\u043e\u0441\u0430": {
                 "item_alt_name": "chaos-shard",
                 "img": "assets/img/\u0412\u0430\u043b\u044e\u0442\u0430/chaos-shard.png"
@@ -3321,1116 +3459,1202 @@
                 "img": "assets/img/\u0412\u0430\u043b\u044e\u0442\u0430/mirror-shard.png"
             }
         },
-        "Fragments & Scarabs": {
+        "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438": {
             "\u0416\u0435\u0440\u0442\u0432\u0430 \u043d\u0430 \u0437\u0430\u043a\u0430\u0442\u0435": {
                 "item_alt_name": "dusk",
-                "img": "assets/img/Fragments & Scarabs/dusk.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/dusk.png"
             },
             "\u0416\u0435\u0440\u0442\u0432\u0430 \u0432 \u043f\u043e\u043b\u043d\u043e\u0447\u044c": {
                 "item_alt_name": "mid",
-                "img": "assets/img/Fragments & Scarabs/mid.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/mid.png"
             },
             "\u0416\u0435\u0440\u0442\u0432\u0430 \u043d\u0430 \u0440\u0430\u0441\u0441\u0432\u0435\u0442\u0435": {
                 "item_alt_name": "dawn",
-                "img": "assets/img/Fragments & Scarabs/dawn.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/dawn.png"
             },
             "\u0416\u0435\u0440\u0442\u0432\u0430 \u0432 \u043f\u043e\u043b\u0434\u0435\u043d\u044c": {
                 "item_alt_name": "noon",
-                "img": "assets/img/Fragments & Scarabs/noon.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/noon.png"
             },
             "\u0421\u043c\u0435\u0440\u0442\u043d\u043e\u0435 \u0443\u043d\u044b\u043d\u0438\u0435": {
                 "item_alt_name": "grie",
-                "img": "assets/img/Fragments & Scarabs/grie.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/grie.png"
             },
             "\u0421\u043c\u0435\u0440\u0442\u043d\u044b\u0439 \u0433\u043d\u0435\u0432": {
                 "item_alt_name": "rage",
-                "img": "assets/img/Fragments & Scarabs/rage.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/rage.png"
             },
             "\u0421\u043c\u0435\u0440\u0442\u043d\u0430\u044f \u043d\u0430\u0434\u0435\u0436\u0434\u0430": {
                 "item_alt_name": "hope",
-                "img": "assets/img/Fragments & Scarabs/hope.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/hope.png"
             },
             "\u0421\u043c\u0435\u0440\u0442\u043d\u043e\u0435 \u043d\u0435\u0432\u0435\u0436\u0435\u0441\u0442\u0432\u043e": {
                 "item_alt_name": "ign",
-                "img": "assets/img/Fragments & Scarabs/ign.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ign.png"
             },
             "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u0413\u0438\u0434\u0440\u044b": {
                 "item_alt_name": "hydra",
-                "img": "assets/img/Fragments & Scarabs/hydra.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/hydra.png"
             },
             "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u0424\u0435\u043d\u0438\u043a\u0441\u0430": {
                 "item_alt_name": "phoenix",
-                "img": "assets/img/Fragments & Scarabs/phoenix.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/phoenix.png"
             },
             "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u041c\u0438\u043d\u043e\u0442\u0430\u0432\u0440\u0430": {
                 "item_alt_name": "minot",
-                "img": "assets/img/Fragments & Scarabs/minot.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/minot.png"
             },
             "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u0425\u0438\u043c\u0435\u0440\u044b": {
                 "item_alt_name": "chimer",
-                "img": "assets/img/Fragments & Scarabs/chimer.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/chimer.png"
             },
             "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u043f\u043e\u0440\u0430\u0431\u043e\u0449\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "fragment-of-enslavement",
-                "img": "assets/img/Fragments & Scarabs/fragment-of-enslavement.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/fragment-of-enslavement.png"
             },
             "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u0438\u0441\u043a\u043e\u0440\u0435\u043d\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "fragment-of-eradication",
-                "img": "assets/img/Fragments & Scarabs/fragment-of-eradication.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/fragment-of-eradication.png"
             },
             "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u0443\u0433\u043d\u0435\u0442\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "fragment-of-constriction",
-                "img": "assets/img/Fragments & Scarabs/fragment-of-constriction.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/fragment-of-constriction.png"
             },
             "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u0438\u0441\u043a\u0443\u043f\u043b\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "fragment-of-purification",
-                "img": "assets/img/Fragments & Scarabs/fragment-of-purification.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/fragment-of-purification.png"
             },
             "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u0443\u0436\u0430\u0441\u0430": {
                 "item_alt_name": "fragment-of-terror",
-                "img": "assets/img/Fragments & Scarabs/fragment-of-terror.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/fragment-of-terror.png"
             },
             "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u043f\u0443\u0441\u0442\u043e\u0442\u044b": {
                 "item_alt_name": "fragment-of-emptiness",
-                "img": "assets/img/Fragments & Scarabs/fragment-of-emptiness.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/fragment-of-emptiness.png"
             },
             "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u0444\u043e\u0440\u043c\u044b": {
                 "item_alt_name": "fragment-of-shape",
-                "img": "assets/img/Fragments & Scarabs/fragment-of-shape.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/fragment-of-shape.png"
             },
             "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u0437\u043d\u0430\u043d\u0438\u044f": {
                 "item_alt_name": "fragment-of-knowledge",
-                "img": "assets/img/Fragments & Scarabs/fragment-of-knowledge.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/fragment-of-knowledge.png"
             },
             "\u0413\u0435\u0440\u0431 \u0410\u043b\u044c-\u0425\u0435\u0437\u043c\u0438\u043d\u0430": {
                 "item_alt_name": "al-hezmins-crest",
-                "img": "assets/img/Fragments & Scarabs/al-hezmins-crest.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/al-hezmins-crest.png"
             },
             "\u0413\u0435\u0440\u0431 \u0411\u044d\u0440\u0430\u043d\u0430": {
                 "item_alt_name": "barans-crest",
-                "img": "assets/img/Fragments & Scarabs/barans-crest.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/barans-crest.png"
             },
             "\u0413\u0435\u0440\u0431 \u0414\u0440\u043e\u043a\u0441\u0430": {
                 "item_alt_name": "droxs-crest",
-                "img": "assets/img/Fragments & Scarabs/droxs-crest.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/droxs-crest.png"
             },
             "\u0413\u0435\u0440\u0431 \u0412\u0435\u0440\u0438\u0442\u0430\u043d\u0438\u0438": {
                 "item_alt_name": "veritanias-crest",
-                "img": "assets/img/Fragments & Scarabs/veritanias-crest.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/veritanias-crest.png"
             },
             "\u041a\u0440\u0430\u0441\u043e\u0442\u0430": {
                 "item_alt_name": "beauty",
-                "img": "assets/img/Fragments & Scarabs/beauty.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/beauty.png"
             },
             "\u041b\u044e\u0431\u043e\u043f\u044b\u0442\u0441\u0442\u0432\u043e": {
                 "item_alt_name": "curiosity",
-                "img": "assets/img/Fragments & Scarabs/curiosity.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/curiosity.png"
             },
             "\u0421\u0442\u0440\u0435\u043c\u043b\u0435\u043d\u0438\u0435": {
                 "item_alt_name": "ambition",
-                "img": "assets/img/Fragments & Scarabs/ambition.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ambition.png"
             },
             "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u0447\u0435\u0441\u0442\u0432\u043e": {
                 "item_alt_name": "cooperation",
-                "img": "assets/img/Fragments & Scarabs/cooperation.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/cooperation.png"
             },
             "\u041f\u043e\u0434\u043d\u043e\u0448\u0435\u043d\u0438\u0435 \u0431\u043e\u0433\u0438\u043d\u0435": {
                 "item_alt_name": "offer",
-                "img": "assets/img/Fragments & Scarabs/offer.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/offer.png"
             },
             "\u0414\u0430\u043d\u044c \u0431\u043e\u0433\u0438\u043d\u0435": {
                 "item_alt_name": "offer-tribute",
-                "img": "assets/img/Fragments & Scarabs/offer-tribute.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/offer-tribute.png"
             },
             "\u0414\u0430\u0440 \u0431\u043e\u0433\u0438\u043d\u0435": {
                 "item_alt_name": "offer-gift",
-                "img": "assets/img/Fragments & Scarabs/offer-gift.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/offer-gift.png"
             },
             "\u041f\u043e\u0441\u0432\u044f\u0449\u0435\u043d\u0438\u0435 \u0431\u043e\u0433\u0438\u043d\u0435": {
                 "item_alt_name": "offer-dedication",
-                "img": "assets/img/Fragments & Scarabs/offer-dedication.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/offer-dedication.png"
             },
             "\u041d\u0430\u0431\u043e\u0440 \u0416\u0435\u0440\u0442\u0432": {
                 "item_alt_name": "sacrifice-set",
-                "img": "assets/img/Fragments & Scarabs/sacrifice-set.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/sacrifice-set.png"
             },
             "\u041d\u0430\u0431\u043e\u0440 \u0421\u043c\u0435\u0440\u0442\u043d\u044b\u0445": {
                 "item_alt_name": "mortal-set",
-                "img": "assets/img/Fragments & Scarabs/mortal-set.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/mortal-set.png"
             },
             "\u041a\u043b\u044e\u0447 \u043a \u0422\u0438\u0433\u043b\u044e": {
                 "item_alt_name": "shaper-set",
-                "img": "assets/img/Fragments & Scarabs/shaper-set.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/shaper-set.png"
             },
             "\u041a\u043b\u044e\u0447 \u043a \u041f\u043e\u0440\u0447\u0435": {
                 "item_alt_name": "key-to-decay",
-                "img": "assets/img/Fragments & Scarabs/key-to-decay.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/key-to-decay.png"
             },
             "\u0421\u0443\u0431\u0441\u0442\u0430\u043d\u0446\u0438\u044f \u0431\u0435\u0437\u0443\u043c\u0438\u044f": {
                 "item_alt_name": "maddening-object",
-                "img": "assets/img/Fragments & Scarabs/maddening-object.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/maddening-object.png"
             },
             "\u0413\u0435\u0440\u0431 \u0423\u0431\u0438\u0439\u0446 \u0414\u0440\u0435\u0432\u043d\u0435\u0433\u043e": {
                 "item_alt_name": "crest-of-the-elderslayers",
-                "img": "assets/img/Fragments & Scarabs/crest-of-the-elderslayers.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/crest-of-the-elderslayers.png"
             },
             "\u0412\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u0437\u043d\u0430\u043a\u00a0\u0412\u0435\u0447\u043d\u044b\u0445": {
                 "item_alt_name": "timeless-eternal-emblem",
-                "img": "assets/img/Fragments & Scarabs/timeless-eternal-emblem.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/timeless-eternal-emblem.png"
             },
             "\u0412\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u0437\u043d\u0430\u043a \u043a\u0430\u0440\u0443\u0438": {
                 "item_alt_name": "timeless-karui-emblem",
-                "img": "assets/img/Fragments & Scarabs/timeless-karui-emblem.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/timeless-karui-emblem.png"
             },
             "\u0412\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u0437\u043d\u0430\u043a \u0432\u0430\u0430\u043b": {
                 "item_alt_name": "timeless-vaal-emblem",
-                "img": "assets/img/Fragments & Scarabs/timeless-vaal-emblem.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/timeless-vaal-emblem.png"
             },
             "\u0412\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u0437\u043d\u0430\u043a \u0445\u0440\u0430\u043c\u043e\u0432\u043d\u0438\u043a\u043e\u0432": {
                 "item_alt_name": "timeless-templar-emblem",
-                "img": "assets/img/Fragments & Scarabs/timeless-templar-emblem.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/timeless-templar-emblem.png"
             },
             "\u0412\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u0437\u043d\u0430\u043a \u043c\u0430\u0440\u0430\u043a\u0435\u0442\u043e\u0432": {
                 "item_alt_name": "timeless-maraketh-emblem",
-                "img": "assets/img/Fragments & Scarabs/timeless-maraketh-emblem.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/timeless-maraketh-emblem.png"
             },
             "\u041d\u0435\u043f\u0440\u0438\u043c\u0438\u0440\u0438\u043c\u044b\u0439 \u0432\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u0437\u043d\u0430\u043a\u00a0\u0412\u0435\u0447\u043d\u044b\u0445": {
                 "item_alt_name": "uber-timeless-eternal-emblem",
-                "img": "assets/img/Fragments & Scarabs/uber-timeless-eternal-emblem.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/uber-timeless-eternal-emblem.png"
             },
             "\u041d\u0435\u043f\u0440\u0438\u043c\u0438\u0440\u0438\u043c\u044b\u0439 \u0432\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u0437\u043d\u0430\u043a \u043a\u0430\u0440\u0443\u0438": {
                 "item_alt_name": "uber-timeless-karui-emblem",
-                "img": "assets/img/Fragments & Scarabs/uber-timeless-karui-emblem.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/uber-timeless-karui-emblem.png"
             },
             "\u041d\u0435\u043f\u0440\u0438\u043c\u0438\u0440\u0438\u043c\u044b\u0439 \u0432\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u0437\u043d\u0430\u043a \u0432\u0430\u0430\u043b": {
                 "item_alt_name": "uber-timeless-vaal-emblem",
-                "img": "assets/img/Fragments & Scarabs/uber-timeless-vaal-emblem.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/uber-timeless-vaal-emblem.png"
             },
             "\u041d\u0435\u043f\u0440\u0438\u043c\u0438\u0440\u0438\u043c\u044b\u0439 \u0432\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u0437\u043d\u0430\u043a \u0445\u0440\u0430\u043c\u043e\u0432\u043d\u0438\u043a\u043e\u0432": {
                 "item_alt_name": "uber-timeless-templar-emblem",
-                "img": "assets/img/Fragments & Scarabs/uber-timeless-templar-emblem.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/uber-timeless-templar-emblem.png"
             },
             "\u041d\u0435\u043f\u0440\u0438\u043c\u0438\u0440\u0438\u043c\u044b\u0439 \u0432\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u0437\u043d\u0430\u043a \u043c\u0430\u0440\u0430\u043a\u0435\u0442\u043e\u0432": {
                 "item_alt_name": "uber-timeless-maraketh-emblem",
-                "img": "assets/img/Fragments & Scarabs/uber-timeless-maraketh-emblem.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/uber-timeless-maraketh-emblem.png"
             },
             "\u0421\u0438\u043c\u0443\u043b\u044f\u043a\u0440": {
                 "item_alt_name": "simulacrum",
-                "img": "assets/img/Fragments & Scarabs/simulacrum.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/simulacrum.png"
             },
             "\u0421\u0432\u044f\u0449\u0435\u043d\u043d\u043e\u0435 \u0441\u043e\u0446\u0432\u0435\u0442\u0438\u0435": {
                 "item_alt_name": "sacred-blossom",
-                "img": "assets/img/Fragments & Scarabs/sacred-blossom.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/sacred-blossom.png"
             },
             "\u0420\u0438\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u043e\u0441\u0443\u0434": {
                 "item_alt_name": "ritual-vessel",
-                "img": "assets/img/Fragments & Scarabs/ritual-vessel.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ritual-vessel.png"
             },
-            "\u0412\u0435\u043b\u0435\u043d\u0438\u0435 \u041c\u0435\u0439\u0432\u0435\u043d": {
-                "item_alt_name": "the-mavens-writ",
-                "img": "assets/img/Fragments & Scarabs/the-mavens-writ.png"
+            "\u0412\u0441\u0442\u0440\u0435\u0447\u0430 \u0441 \u0425\u043e\u0437\u044f\u0438\u043d\u043e\u043c": {
+                "item_alt_name": "an-audience-with-the-king",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/an-audience-with-the-king.png"
             },
             "\u041a\u043b\u044e\u0447 \u043e\u0442 \u0414\u0440\u0435\u0432\u043d\u0435\u0433\u043e \u0420\u0435\u043b\u0438\u043a\u0432\u0430\u0440\u0438\u044f": {
                 "item_alt_name": "ancient-reliquary-key",
-                "img": "assets/img/Fragments & Scarabs/ancient-reliquary-key.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ancient-reliquary-key.png"
             },
             "\u041a\u043b\u044e\u0447 \u043e\u0442 \u0412\u0435\u0442\u0445\u043e\u0433\u043e \u0420\u0435\u043b\u0438\u043a\u0432\u0430\u0440\u0438\u044f": {
                 "item_alt_name": "timeworn-reliquary-key",
-                "img": "assets/img/Fragments & Scarabs/timeworn-reliquary-key.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/timeworn-reliquary-key.png"
             },
             "\u041a\u043b\u044e\u0447 \u043e\u0442 \u0420\u0435\u043b\u0438\u043a\u0432\u0430\u0440\u0438\u044f \u0432\u0430\u0430\u043b": {
                 "item_alt_name": "vaal-reliquary-key",
-                "img": "assets/img/Fragments & Scarabs/vaal-reliquary-key.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/vaal-reliquary-key.png"
             },
             "\u041a\u043b\u044e\u0447 \u043e\u0442 \u0417\u0430\u0431\u044b\u0442\u043e\u0433\u043e \u0420\u0435\u043b\u0438\u043a\u0432\u0430\u0440\u0438\u044f": {
                 "item_alt_name": "forgotten-reliquary-key",
-                "img": "assets/img/Fragments & Scarabs/forgotten-reliquary-key.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/forgotten-reliquary-key.png"
             },
             "\u041a\u043b\u044e\u0447 \u043e\u0442 \u0412\u043d\u0443\u0442\u0440\u0438\u0443\u0442\u0440\u043e\u0431\u043d\u043e\u0433\u043e \u0420\u0435\u043b\u0438\u043a\u0432\u0430\u0440\u0438\u044f": {
                 "item_alt_name": "visceral-reliquary-key",
-                "img": "assets/img/Fragments & Scarabs/visceral-reliquary-key.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/visceral-reliquary-key.png"
             },
             "\u041a\u043b\u044e\u0447 \u043e\u0442 \u0421\u0432\u0435\u0440\u043a\u0430\u044e\u0449\u0435\u0433\u043e \u0420\u0435\u043b\u0438\u043a\u0432\u0430\u0440\u0438\u044f": {
                 "item_alt_name": "shiny-reliquary-key",
-                "img": "assets/img/Fragments & Scarabs/shiny-reliquary-key.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/shiny-reliquary-key.png"
             },
             "\u041a\u043b\u044e\u0447 \u043e\u0442 \u0410\u0440\u0445\u0438\u0432\u043d\u043e\u0433\u043e \u0420\u0435\u043b\u0438\u043a\u0432\u0430\u0440\u0438\u044f": {
                 "item_alt_name": "archive-reliquary-key",
-                "img": "assets/img/Fragments & Scarabs/archive-reliquary-key.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/archive-reliquary-key.png"
             },
             "\u041a\u043b\u044e\u0447 \u043e\u0442 \u0420\u0435\u043b\u0438\u043a\u0432\u0430\u0440\u0438\u044f \u0437\u0430\u0431\u0432\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "oubliette-reliquary-key",
-                "img": "assets/img/Fragments & Scarabs/oubliette-reliquary-key.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/oubliette-reliquary-key.png"
             },
             "\u041a\u043b\u044e\u0447 \u043e\u0442 \u041a\u043e\u0441\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0420\u0435\u043b\u0438\u043a\u0432\u0430\u0440\u0438\u044f": {
                 "item_alt_name": "cosmic-reliquary-key",
-                "img": "assets/img/Fragments & Scarabs/cosmic-reliquary-key.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/cosmic-reliquary-key.png"
             },
             "\u041a\u043b\u044e\u0447 \u043e\u0442 \u0420\u0430\u0437\u043b\u0430\u0433\u0430\u044e\u0449\u0435\u0433\u043e\u0441\u044f \u0420\u0435\u043b\u0438\u043a\u0432\u0430\u0440\u0438\u044f": {
                 "item_alt_name": "decaying-reliquary-key",
-                "img": "assets/img/Fragments & Scarabs/decaying-reliquary-key.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/decaying-reliquary-key.png"
             },
             "\u041a\u043b\u044e\u0447 \u043e\u0442 \u041f\u0443\u0441\u0442\u043e\u0442\u043d\u043e\u0433\u043e \u0420\u0435\u043b\u0438\u043a\u0432\u0430\u0440\u0438\u044f": {
                 "item_alt_name": "voidborn-reliquary-key",
-                "img": "assets/img/Fragments & Scarabs/voidborn-reliquary-key.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/voidborn-reliquary-key.png"
             },
             "\u041a\u0443\u0431 \u0437\u0430\u0433\u0430\u0434\u043e\u043a \u0412\u0430\u043b\u0434\u043e": {
                 "item_alt_name": "valdos-puzzle-box",
-                "img": "assets/img/Fragments & Scarabs/valdos-puzzle-box.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/valdos-puzzle-box.png"
             },
             "\u0411\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0441\u043e\u0441\u0443\u0434": {
                 "item_alt_name": "divine-vessel",
-                "img": "assets/img/Fragments & Scarabs/divine-vessel.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/divine-vessel.png"
             },
             "\u041f\u0440\u043e\u0431\u0443\u0436\u0434\u0430\u044e\u0449\u0438\u0439 \u0444\u0440\u0430\u0433\u043c\u0435\u043d\u0442": {
                 "item_alt_name": "awakening-fragment",
-                "img": "assets/img/Fragments & Scarabs/awakening-fragment.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/awakening-fragment.png"
             },
             "\u041a\u043e\u0441\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0444\u0440\u0430\u0433\u043c\u0435\u043d\u0442": {
                 "item_alt_name": "cosmic-fragment",
-                "img": "assets/img/Fragments & Scarabs/cosmic-fragment.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/cosmic-fragment.png"
             },
             "\u041f\u044b\u043b\u0430\u044e\u0449\u0438\u0439 \u0444\u0440\u0430\u0433\u043c\u0435\u043d\u0442": {
                 "item_alt_name": "blazing-fragment",
-                "img": "assets/img/Fragments & Scarabs/blazing-fragment.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/blazing-fragment.png"
             },
             "\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0438": {
                 "item_alt_name": "reality-fragment",
-                "img": "assets/img/Fragments & Scarabs/reality-fragment.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/reality-fragment.png"
             },
             "\u0420\u0430\u0437\u043b\u0430\u0433\u0430\u044e\u0449\u0438\u0439 \u0444\u0440\u0430\u0433\u043c\u0435\u043d\u0442": {
                 "item_alt_name": "decaying-fragment",
-                "img": "assets/img/Fragments & Scarabs/decaying-fragment.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/decaying-fragment.png"
             },
             "\u041f\u043e\u0436\u0438\u0440\u0430\u044e\u0449\u0438\u0439 \u0444\u0440\u0430\u0433\u043c\u0435\u043d\u0442": {
                 "item_alt_name": "devouring-fragment",
-                "img": "assets/img/Fragments & Scarabs/devouring-fragment.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/devouring-fragment.png"
             },
             "\u0421\u0438\u043d\u0442\u0435\u0437\u0438\u0440\u0443\u044e\u0449\u0438\u0439 \u0444\u0440\u0430\u0433\u043c\u0435\u043d\u0442": {
                 "item_alt_name": "synthesising-fragment",
-                "img": "assets/img/Fragments & Scarabs/synthesising-fragment.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/synthesising-fragment.png"
             },
             "\u0411\u043b\u0430\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u0438\u0435 \u041a\u0441\u043e\u0444\u0430": {
                 "item_alt_name": "blessing-xoph",
-                "img": "assets/img/Fragments & Scarabs/blessing-xoph.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/blessing-xoph.png"
             },
             "\u0411\u043b\u0430\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u0438\u0435 \u0422\u0443\u043b": {
                 "item_alt_name": "blessing-tul",
-                "img": "assets/img/Fragments & Scarabs/blessing-tul.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/blessing-tul.png"
             },
             "\u0411\u043b\u0430\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u0438\u0435 \u0418\u0448": {
                 "item_alt_name": "blessing-esh",
-                "img": "assets/img/Fragments & Scarabs/blessing-esh.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/blessing-esh.png"
             },
             "\u0411\u043b\u0430\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u0438\u0435 \u0423\u0443\u043b-\u041d\u0435\u0442\u043e\u043b": {
                 "item_alt_name": "blessing-uul-netol",
-                "img": "assets/img/Fragments & Scarabs/blessing-uul-netol.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/blessing-uul-netol.png"
             },
             "\u0411\u043b\u0430\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u0438\u0435 \u0427\u0430\u044e\u043b\u044b": {
                 "item_alt_name": "blessing-chayula",
-                "img": "assets/img/Fragments & Scarabs/blessing-chayula.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/blessing-chayula.png"
             },
             "\u041a\u0430\u043c\u0435\u043d\u044c \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u041a\u0441\u043e\u0444\u0430": {
                 "item_alt_name": "xophs-breachstone",
-                "img": "assets/img/Fragments & Scarabs/xophs-breachstone.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/xophs-breachstone.png"
             },
             "\u041a\u0430\u043c\u0435\u043d\u044c \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u0422\u0443\u043b": {
                 "item_alt_name": "tuls-breachstone",
-                "img": "assets/img/Fragments & Scarabs/tuls-breachstone.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/tuls-breachstone.png"
             },
             "\u041a\u0430\u043c\u0435\u043d\u044c \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u0418\u0448": {
                 "item_alt_name": "eshs-breachstone",
-                "img": "assets/img/Fragments & Scarabs/eshs-breachstone.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/eshs-breachstone.png"
             },
             "\u041a\u0430\u043c\u0435\u043d\u044c \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u0423\u0443\u043b-\u041d\u0435\u0442\u043e\u043b": {
                 "item_alt_name": "uul-breachstone",
-                "img": "assets/img/Fragments & Scarabs/uul-breachstone.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/uul-breachstone.png"
             },
             "\u041a\u0430\u043c\u0435\u043d\u044c \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u0427\u0430\u044e\u043b\u044b": {
                 "item_alt_name": "chayulas-breachstone",
-                "img": "assets/img/Fragments & Scarabs/chayulas-breachstone.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/chayulas-breachstone.png"
             },
             "\u0411\u0435\u0437\u0443\u043f\u0440\u0435\u0447\u043d\u044b\u0439 \u043a\u0430\u043c\u0435\u043d\u044c \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u041a\u0441\u043e\u0444\u0430": {
                 "item_alt_name": "xophs-flawless-breachstone",
-                "img": "assets/img/Fragments & Scarabs/xophs-flawless-breachstone.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/xophs-flawless-breachstone.png"
             },
             "\u0411\u0435\u0437\u0443\u043f\u0440\u0435\u0447\u043d\u044b\u0439 \u043a\u0430\u043c\u0435\u043d\u044c \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u0422\u0443\u043b": {
                 "item_alt_name": "tuls-flawless-breachstone",
-                "img": "assets/img/Fragments & Scarabs/tuls-flawless-breachstone.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/tuls-flawless-breachstone.png"
             },
             "\u0411\u0435\u0437\u0443\u043f\u0440\u0435\u0447\u043d\u044b\u0439 \u043a\u0430\u043c\u0435\u043d\u044c \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u0418\u0448": {
                 "item_alt_name": "eshs-flawless-breachstone",
-                "img": "assets/img/Fragments & Scarabs/eshs-flawless-breachstone.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/eshs-flawless-breachstone.png"
             },
             "\u0411\u0435\u0437\u0443\u043f\u0440\u0435\u0447\u043d\u044b\u0439 \u043a\u0430\u043c\u0435\u043d\u044c \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u0423\u0443\u043b-\u041d\u0435\u0442\u043e\u043b": {
                 "item_alt_name": "uul-flawless-breachstone",
-                "img": "assets/img/Fragments & Scarabs/uul-flawless-breachstone.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/uul-flawless-breachstone.png"
             },
             "\u0411\u0435\u0437\u0443\u043f\u0440\u0435\u0447\u043d\u044b\u0439 \u043a\u0430\u043c\u0435\u043d\u044c \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u0427\u0430\u044e\u043b\u044b": {
                 "item_alt_name": "chayulas-flawless-breachstone",
-                "img": "assets/img/Fragments & Scarabs/chayulas-flawless-breachstone.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/chayulas-flawless-breachstone.png"
             },
-            "\u0420\u0435\u043b\u0438\u043a\u0442\u043e\u0432\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439": {
-                "item_alt_name": "reliquary-scarab",
-                "img": "assets/img/Fragments & Scarabs/reliquary-scarab.png"
+            "\u0422\u0438\u0442\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439": {
+                "item_alt_name": "titanic-scarab",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/titanic-scarab.png"
             },
-            "\u0420\u0435\u043b\u0438\u043a\u0442\u043e\u0432\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043f\u043e\u0432\u0435\u043b\u0438\u0442\u0435\u043b\u0435\u0439": {
-                "item_alt_name": "reliquary-scarab-of-overlords",
-                "img": "assets/img/Fragments & Scarabs/reliquary-scarab-of-overlords.png"
+            "\u0422\u0438\u0442\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0441\u043e\u043a\u0440\u043e\u0432\u0438\u0449": {
+                "item_alt_name": "titanic-scarab-of-treasures",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/titanic-scarab-of-treasures.png"
             },
-            "\u0420\u0435\u043b\u0438\u043a\u0442\u043e\u0432\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0432\u0438\u0434\u0435\u043d\u0438\u044f": {
-                "item_alt_name": "reliquary-scarab-of-vision",
-                "img": "assets/img/Fragments & Scarabs/reliquary-scarab-of-vision.png"
+            "\u0422\u0438\u0442\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043b\u0435\u0433\u0435\u043d\u0434\u044b": {
+                "item_alt_name": "titanic-scarab-of-legend",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/titanic-scarab-of-legend.png"
             },
             "\u0421\u0443\u043b\u044c\u0444\u0438\u0442\u043e\u0432\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439": {
                 "item_alt_name": "sulphite-scarab",
-                "img": "assets/img/Fragments & Scarabs/sulphite-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/sulphite-scarab.png"
             },
             "\u0421\u0443\u043b\u044c\u0444\u0438\u0442\u043e\u0432\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0430\u043b\u0447\u043d\u043e\u0441\u0442\u0438": {
                 "item_alt_name": "sulphite-scarab-of-greed",
-                "img": "assets/img/Fragments & Scarabs/sulphite-scarab-of-greed.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/sulphite-scarab-of-greed.png"
             },
             "\u0421\u0443\u043b\u044c\u0444\u0438\u0442\u043e\u0432\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0438\u0441\u043f\u0430\u0440\u0435\u043d\u0438\u0439": {
                 "item_alt_name": "sulphite-scarab-of-fumes",
-                "img": "assets/img/Fragments & Scarabs/sulphite-scarab-of-fumes.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/sulphite-scarab-of-fumes.png"
             },
-            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f": {
-                "item_alt_name": "divination-scarab",
-                "img": "assets/img/Fragments & Scarabs/divination-scarab.png"
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f \u0442\u043b\u0435\u0442\u0432\u043e\u0440\u043d\u043e\u0441\u0442\u0438": {
+                "item_alt_name": "divination-scarab-of-the-cloister",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/divination-scarab-of-the-cloister.png"
             },
-            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f \u043a\u0443\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f": {
-                "item_alt_name": "divination-scarab-of-curation",
-                "img": "assets/img/Fragments & Scarabs/divination-scarab-of-curation.png"
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f \u0438\u0437\u043e\u0431\u0438\u043b\u0438\u044f": {
+                "item_alt_name": "divination-scarab-of-plenty",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/divination-scarab-of-plenty.png"
             },
-            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u044f": {
-                "item_alt_name": "divination-scarab-of-completion",
-                "img": "assets/img/Fragments & Scarabs/divination-scarab-of-completion.png"
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f \u0440\u0430\u0441\u0445\u0438\u0449\u0435\u043d\u0438\u044f": {
+                "item_alt_name": "divination-scarab-of-pilfering",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/divination-scarab-of-pilfering.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041c\u0443\u0447\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "torment-scarab",
-                "img": "assets/img/Fragments & Scarabs/torment-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/torment-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041c\u0443\u0447\u0435\u043d\u0438\u044f \u0441\u0432\u043e\u0435\u043e\u0431\u0440\u0430\u0437\u0438\u044f": {
                 "item_alt_name": "torment-scarab-of-peculiarity",
-                "img": "assets/img/Fragments & Scarabs/torment-scarab-of-peculiarity.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/torment-scarab-of-peculiarity.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041c\u0443\u0447\u0435\u043d\u0438\u044f \u043e\u0441\u0432\u043e\u0431\u043e\u0436\u0434\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "torment-scarab-of-release",
-                "img": "assets/img/Fragments & Scarabs/torment-scarab-of-release.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/torment-scarab-of-release.png"
+            },
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041c\u0443\u0447\u0435\u043d\u0438\u044f \u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0441\u0442\u0438": {
+                "item_alt_name": "torment-scarab-of-possession",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/torment-scarab-of-possession.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0410\u043d\u0430\u0440\u0445\u0438\u0438": {
                 "item_alt_name": "anarchy-scarab",
-                "img": "assets/img/Fragments & Scarabs/anarchy-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/anarchy-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0410\u043d\u0430\u0440\u0445\u0438\u0438 \u0438\u0441\u043f\u043e\u043b\u0438\u043d\u0441\u0442\u0432\u0430": {
                 "item_alt_name": "anarchy-scarab-of-gigantification",
-                "img": "assets/img/Fragments & Scarabs/anarchy-scarab-of-gigantification.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/anarchy-scarab-of-gigantification.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0410\u043d\u0430\u0440\u0445\u0438\u0438 \u043f\u0430\u0440\u0442\u043d\u0451\u0440\u0441\u0442\u0432\u0430": {
                 "item_alt_name": "anarchy-scarab-of-partnership",
-                "img": "assets/img/Fragments & Scarabs/anarchy-scarab-of-partnership.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/anarchy-scarab-of-partnership.png"
             },
             "\u0420\u0438\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0438\u0437\u0431\u0440\u0430\u043d\u043d\u043e\u0441\u0442\u0438": {
                 "item_alt_name": "ritual-scarab-of-selectiveness",
-                "img": "assets/img/Fragments & Scarabs/ritual-scarab-of-selectiveness.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ritual-scarab-of-selectiveness.png"
             },
-            "\u0420\u0438\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043f\u0440\u0438\u0437\u043d\u0430\u043d\u0438\u044f": {
-                "item_alt_name": "ritual-scarab-of-recognition",
-                "img": "assets/img/Fragments & Scarabs/ritual-scarab-of-recognition.png"
+            "\u0420\u0438\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043e\u0433\u043e\u043d\u044c\u043a\u043e\u0432": {
+                "item_alt_name": "ritual-scarab-of-wisps",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ritual-scarab-of-wisps.png"
             },
             "\u0420\u0438\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0438\u0437\u043e\u0431\u0438\u043b\u0438\u044f": {
                 "item_alt_name": "ritual-scarab-of-abundance",
-                "img": "assets/img/Fragments & Scarabs/ritual-scarab-of-abundance.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ritual-scarab-of-abundance.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0416\u0430\u0442\u0432\u044b": {
                 "item_alt_name": "harvest-scarab",
-                "img": "assets/img/Fragments & Scarabs/harvest-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/harvest-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0416\u0430\u0442\u0432\u044b \u0443\u0434\u0432\u043e\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "harvest-scarab-of-doubling",
-                "img": "assets/img/Fragments & Scarabs/harvest-scarab-of-doubling.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/harvest-scarab-of-doubling.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0416\u0430\u0442\u0432\u044b \u0438\u0437\u043e\u0431\u0438\u043b\u0438\u044f": {
                 "item_alt_name": "harvest-scarab-of-cornucopia",
-                "img": "assets/img/Fragments & Scarabs/harvest-scarab-of-cornucopia.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/harvest-scarab-of-cornucopia.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0411\u0435\u0441\u0442\u0438\u0430\u0440\u0438\u044f": {
                 "item_alt_name": "bestiary-scarab",
-                "img": "assets/img/Fragments & Scarabs/bestiary-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/bestiary-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0411\u0435\u0441\u0442\u0438\u0430\u0440\u0438\u044f \u0441\u0442\u0430\u0438": {
                 "item_alt_name": "bestiary-scarab-of-the-herd",
-                "img": "assets/img/Fragments & Scarabs/bestiary-scarab-of-the-herd.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/bestiary-scarab-of-the-herd.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0411\u0435\u0441\u0442\u0438\u0430\u0440\u0438\u044f \u0443\u0434\u0432\u043e\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "bestiary-scarab-of-duplicating",
-                "img": "assets/img/Fragments & Scarabs/bestiary-scarab-of-duplicating.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/bestiary-scarab-of-duplicating.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0411\u0435\u0441\u0442\u0438\u0430\u0440\u0438\u044f \u0442\u0451\u043c\u043d\u043e\u0439 \u0432\u043e\u0440\u043e\u043d\u044b": {
                 "item_alt_name": "bestiary-scarab-of-the-shadowed-crow",
-                "img": "assets/img/Fragments & Scarabs/bestiary-scarab-of-the-shadowed-crow.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/bestiary-scarab-of-the-shadowed-crow.png"
             },
             "\u0412\u043b\u0438\u044f\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0421\u043e\u0437\u0434\u0430\u0442\u0435\u043b\u044f": {
                 "item_alt_name": "influencing-scarab-of-the-shaper",
-                "img": "assets/img/Fragments & Scarabs/influencing-scarab-of-the-shaper.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/influencing-scarab-of-the-shaper.png"
             },
             "\u0412\u043b\u0438\u044f\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0414\u0440\u0435\u0432\u043d\u0435\u0433\u043e": {
                 "item_alt_name": "influencing-scarab-of-the-elder",
-                "img": "assets/img/Fragments & Scarabs/influencing-scarab-of-the-elder.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/influencing-scarab-of-the-elder.png"
             },
             "\u0412\u043b\u0438\u044f\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043e\u0440\u0434": {
                 "item_alt_name": "influencing-scarab-of-hordes",
-                "img": "assets/img/Fragments & Scarabs/influencing-scarab-of-hordes.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/influencing-scarab-of-hordes.png"
             },
             "\u0412\u043b\u0438\u044f\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043f\u0440\u0435\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "influencing-scarab-of-conversion",
-                "img": "assets/img/Fragments & Scarabs/influencing-scarab-of-conversion.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/influencing-scarab-of-conversion.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041f\u0440\u0435\u0434\u0432\u0435\u0441\u0442\u043d\u0438\u043a\u0430": {
                 "item_alt_name": "harbinger-scarab",
-                "img": "assets/img/Fragments & Scarabs/harbinger-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/harbinger-scarab.png"
             },
-            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041f\u0440\u0435\u0434\u0432\u0435\u0441\u0442\u043d\u0438\u043a\u0430 \u0440\u0430\u0437\u0431\u043e\u0440\u0447\u0438\u0432\u043e\u0441\u0442\u0438": {
-                "item_alt_name": "harbinger-scarab-of-discernment",
-                "img": "assets/img/Fragments & Scarabs/harbinger-scarab-of-discernment.png"
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041f\u0440\u0435\u0434\u0432\u0435\u0441\u0442\u043d\u0438\u043a\u0430 \u043e\u0431\u0435\u043b\u0438\u0441\u043a\u043e\u0432": {
+                "item_alt_name": "harbinger-scarab-of-obelisks",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/harbinger-scarab-of-obelisks.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041f\u0440\u0435\u0434\u0432\u0435\u0441\u0442\u043d\u0438\u043a\u0430 \u0440\u0435\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u0430": {
                 "item_alt_name": "harbinger-scarab-of-regency",
-                "img": "assets/img/Fragments & Scarabs/harbinger-scarab-of-regency.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/harbinger-scarab-of-regency.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041f\u0440\u0435\u0434\u0432\u0435\u0441\u0442\u043d\u0438\u043a\u0430 \u0432\u043e\u0435\u043d\u043d\u044b\u0445 \u0437\u0430\u043f\u0430\u0441\u043e\u0432": {
                 "item_alt_name": "harbinger-scarab-of-warhoards",
-                "img": "assets/img/Fragments & Scarabs/harbinger-scarab-of-warhoards.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/harbinger-scarab-of-warhoards.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0411\u0435\u0437\u0434\u043d\u044b": {
                 "item_alt_name": "abyss-scarab",
-                "img": "assets/img/Fragments & Scarabs/abyss-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/abyss-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0411\u0435\u0437\u0434\u043d\u044b \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432": {
                 "item_alt_name": "abyss-scarab-of-multitudes",
-                "img": "assets/img/Fragments & Scarabs/abyss-scarab-of-multitudes.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/abyss-scarab-of-multitudes.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0411\u0435\u0437\u0434\u043d\u044b \u043f\u0443\u0441\u0442\u043e\u0442\u044b": {
                 "item_alt_name": "abyss-scarab-of-emptiness",
-                "img": "assets/img/Fragments & Scarabs/abyss-scarab-of-emptiness.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/abyss-scarab-of-emptiness.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0411\u0435\u0437\u0434\u043d\u044b \u0441\u0442\u0440\u043e\u0435\u043d\u0438\u0439": {
                 "item_alt_name": "abyss-scarab-of-edifice",
-                "img": "assets/img/Fragments & Scarabs/abyss-scarab-of-edifice.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/abyss-scarab-of-edifice.png"
+            },
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0411\u0435\u0437\u0434\u043d\u044b \u0431\u0435\u0437\u0434\u043e\u043d\u043d\u043e\u0441\u0442\u0438": {
+                "item_alt_name": "abyss-scarab-of-profound-depth",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/abyss-scarab-of-profound-depth.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0421\u0443\u0449\u043d\u043e\u0441\u0442\u0438": {
                 "item_alt_name": "essence-scarab",
-                "img": "assets/img/Fragments & Scarabs/essence-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/essence-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0421\u0443\u0449\u043d\u043e\u0441\u0442\u0438 \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "essence-scarab-of-ascent",
-                "img": "assets/img/Fragments & Scarabs/essence-scarab-of-ascent.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/essence-scarab-of-ascent.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0421\u0443\u0449\u043d\u043e\u0441\u0442\u0438 \u0441\u0442\u0430\u0431\u0438\u043b\u044c\u043d\u043e\u0441\u0442\u0438": {
                 "item_alt_name": "essence-scarab-of-stability",
-                "img": "assets/img/Fragments & Scarabs/essence-scarab-of-stability.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/essence-scarab-of-stability.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0421\u0443\u0449\u043d\u043e\u0441\u0442\u0438 \u043e\u043a\u043e\u0441\u0442\u0435\u043d\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "essence-scarab-of-calcification",
-                "img": "assets/img/Fragments & Scarabs/essence-scarab-of-calcification.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/essence-scarab-of-calcification.png"
+            },
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0421\u0443\u0437\u043d\u043e\u0441\u0442\u0438 \u0430\u0434\u0430\u043f\u0442\u0430\u0446\u0438\u0438": {
+                "item_alt_name": "essence-scarab-of-adaptation",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/essence-scarab-of-adaptation.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0413\u043e\u0441\u043f\u043e\u0434\u0441\u0442\u0432\u0430": {
                 "item_alt_name": "domination-scarab",
-                "img": "assets/img/Fragments & Scarabs/domination-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/domination-scarab.png"
             },
-            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0413\u043e\u0441\u043f\u043e\u0434\u0441\u0442\u0432\u0430 \u0430\u043d\u043e\u043c\u0430\u043b\u0438\u0438": {
-                "item_alt_name": "domination-scarab-of-abnormality",
-                "img": "assets/img/Fragments & Scarabs/domination-scarab-of-abnormality.png"
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0413\u043e\u0441\u043f\u043e\u0434\u0441\u0442\u0432\u0430 \u043f\u0440\u0438\u0437\u0440\u0430\u043a\u043e\u0432": {
+                "item_alt_name": "domination-scarab-of-apparitions",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/domination-scarab-of-apparitions.png"
             },
-            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0413\u043e\u0441\u043f\u043e\u0434\u0441\u0442\u0432\u0430 \u0443\u0447\u0435\u043d\u0438\u0439": {
-                "item_alt_name": "domination-scarab-of-teachings",
-                "img": "assets/img/Fragments & Scarabs/domination-scarab-of-teachings.png"
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0413\u043e\u0441\u043f\u043e\u0434\u0441\u0442\u0432\u0430 \u044d\u0432\u043e\u043b\u044e\u0446\u0438\u0438": {
+                "item_alt_name": "domination-scarab-of-evolution",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/domination-scarab-of-evolution.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0413\u043e\u0441\u043f\u043e\u0434\u0441\u0442\u0432\u0430 \u0443\u0436\u0430\u0441\u043e\u0432": {
                 "item_alt_name": "domination-scarab-of-terrors",
-                "img": "assets/img/Fragments & Scarabs/domination-scarab-of-terrors.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/domination-scarab-of-terrors.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0412\u043c\u0435\u0448\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430": {
                 "item_alt_name": "incursion-scarab",
-                "img": "assets/img/Fragments & Scarabs/incursion-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/incursion-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0412\u043c\u0435\u0448\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430 \u0432\u0442\u043e\u0440\u0436\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "incursion-scarab-of-invasion",
-                "img": "assets/img/Fragments & Scarabs/incursion-scarab-of-invasion.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/incursion-scarab-of-invasion.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0412\u043c\u0435\u0448\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430 \u0447\u0435\u043c\u043f\u0438\u043e\u043d\u043e\u0432": {
                 "item_alt_name": "incursion-scarab-of-champions",
-                "img": "assets/img/Fragments & Scarabs/incursion-scarab-of-champions.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/incursion-scarab-of-champions.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0412\u043c\u0435\u0448\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430 \u0445\u0440\u043e\u043d\u0438\u043a": {
                 "item_alt_name": "incursion-scarab-of-timelines",
-                "img": "assets/img/Fragments & Scarabs/incursion-scarab-of-timelines.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/incursion-scarab-of-timelines.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041f\u0440\u0435\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430": {
                 "item_alt_name": "betrayal-scarab",
-                "img": "assets/img/Fragments & Scarabs/betrayal-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/betrayal-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041f\u0440\u0435\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430 \u0440\u0430\u0437\u0432\u0435\u0434\u043a\u0438": {
                 "item_alt_name": "betrayal-scarab-of-intelligence",
-                "img": "assets/img/Fragments & Scarabs/betrayal-scarab-of-intelligence.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/betrayal-scarab-of-intelligence.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041f\u0440\u0435\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430 \u043f\u043e\u0434\u043a\u0440\u0435\u043f\u043b\u0435\u043d\u0438\u0439": {
                 "item_alt_name": "betrayal-scarab-of-reinforcements",
-                "img": "assets/img/Fragments & Scarabs/betrayal-scarab-of-reinforcements.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/betrayal-scarab-of-reinforcements.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041f\u0440\u0435\u0434\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430 \u0443\u0432\u0435\u043a\u043e\u0432\u0435\u0447\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "betrayal-scarab-of-perpetuation",
-                "img": "assets/img/Fragments & Scarabs/betrayal-scarab-of-perpetuation.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/betrayal-scarab-of-perpetuation.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0421\u043a\u0432\u0435\u0440\u043d\u044b": {
                 "item_alt_name": "blight-scarab",
-                "img": "assets/img/Fragments & Scarabs/blight-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/blight-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0421\u043a\u0432\u0435\u0440\u043d\u044b \u0449\u0435\u0434\u0440\u043e\u0441\u0442\u0438": {
                 "item_alt_name": "blight-scarab-of-bounty",
-                "img": "assets/img/Fragments & Scarabs/blight-scarab-of-bounty.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/blight-scarab-of-bounty.png"
             },
-            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0421\u043a\u0432\u0435\u0440\u043d\u044b \u043c\u0430\u0441\u0435\u043b": {
-                "item_alt_name": "blight-scarab-of-oils",
-                "img": "assets/img/Fragments & Scarabs/blight-scarab-of-oils.png"
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0421\u043a\u0432\u0435\u0440\u043d\u044b \u0441\u0435\u0440\u0434\u0446\u0435\u0432\u0438\u043d\u044b": {
+                "item_alt_name": "blight-scarab-of-the-blightheart",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/blight-scarab-of-the-blightheart.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0421\u043a\u0432\u0435\u0440\u043d\u044b \u0446\u0432\u0435\u0442\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "blight-scarab-of-blooming",
-                "img": "assets/img/Fragments & Scarabs/blight-scarab-of-blooming.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/blight-scarab-of-blooming.png"
+            },
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0421\u043a\u0432\u0435\u0440\u043d\u044b \u0432\u043e\u043e\u0434\u0443\u0448\u0435\u0432\u043b\u0435\u043d\u0438\u044f": {
+                "item_alt_name": "blight-scarab-of-invigoration",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/blight-scarab-of-invigoration.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0420\u0430\u0437\u043b\u043e\u043c\u0430": {
                 "item_alt_name": "breach-scarab",
-                "img": "assets/img/Fragments & Scarabs/breach-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/breach-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u043c\u0435\u0447\u0442\u0430\u0442\u0435\u043b\u044f": {
                 "item_alt_name": "breach-scarab-of-the-dreamer",
-                "img": "assets/img/Fragments & Scarabs/breach-scarab-of-the-dreamer.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/breach-scarab-of-the-dreamer.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u0432\u043b\u0430\u0434\u0435\u043d\u0438\u0439": {
                 "item_alt_name": "breach-scarab-of-lordship",
-                "img": "assets/img/Fragments & Scarabs/breach-scarab-of-lordship.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/breach-scarab-of-lordship.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u0440\u0430\u0441\u0449\u0435\u043f\u043b\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "breach-scarab-of-splintering",
-                "img": "assets/img/Fragments & Scarabs/breach-scarab-of-splintering.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/breach-scarab-of-splintering.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u043b\u043e\u0432\u0443\u0448\u0435\u043a": {
                 "item_alt_name": "breach-scarab-of-snares",
-                "img": "assets/img/Fragments & Scarabs/breach-scarab-of-snares.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/breach-scarab-of-snares.png"
+            },
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0420\u0430\u0437\u043b\u043e\u043c\u0430 \u0440\u0435\u0437\u043e\u043d\u0438\u0440\u0443\u044e\u0449\u0435\u0433\u043e \u043a\u0430\u0441\u043a\u0430\u0434\u0430": {
+                "item_alt_name": "breach-scarab-of-resonant-cascade",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/breach-scarab-of-resonant-cascade.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041b\u0435\u0433\u0438\u043e\u043d\u0430": {
                 "item_alt_name": "legion-scarab",
-                "img": "assets/img/Fragments & Scarabs/legion-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/legion-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041b\u0435\u0433\u0438\u043e\u043d\u0430 \u043e\u0444\u0438\u0446\u0435\u0440\u043e\u0432": {
                 "item_alt_name": "legion-scarab-of-officers",
-                "img": "assets/img/Fragments & Scarabs/legion-scarab-of-officers.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/legion-scarab-of-officers.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041b\u0435\u0433\u0438\u043e\u043d\u0430 \u043a\u043e\u043c\u0430\u043d\u0434\u043e\u0432\u0430\u043d\u0438\u044f": {
                 "item_alt_name": "legion-scarab-of-command",
-                "img": "assets/img/Fragments & Scarabs/legion-scarab-of-command.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/legion-scarab-of-command.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041b\u0435\u0433\u0438\u043e\u043d\u0430 \u0421\u0435\u0445\u0435\u043c\u044b": {
                 "item_alt_name": "legion-scarab-of-the-sekhema",
-                "img": "assets/img/Fragments & Scarabs/legion-scarab-of-the-sekhema.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/legion-scarab-of-the-sekhema.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041b\u0435\u0433\u0438\u043e\u043d\u0430 \u0432\u0435\u0447\u043d\u043e\u0439 \u0432\u043e\u0439\u043d\u044b": {
                 "item_alt_name": "legion-scarab-of-eternal-conflict",
-                "img": "assets/img/Fragments & Scarabs/legion-scarab-of-eternal-conflict.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/legion-scarab-of-eternal-conflict.png"
             },
-            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043a\u0430\u0440\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438": {
-                "item_alt_name": "cartography-scarab",
-                "img": "assets/img/Fragments & Scarabs/cartography-scarab.png"
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043a\u0430\u0440\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u044d\u0441\u043a\u0430\u043b\u0430\u0446\u0438\u0438": {
+                "item_alt_name": "cartography-scarab-of-escalation",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/cartography-scarab-of-escalation.png"
             },
-            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043a\u0430\u0440\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u0432\u043e\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u044f": {
-                "item_alt_name": "cartography-scarab-of-ascension",
-                "img": "assets/img/Fragments & Scarabs/cartography-scarab-of-ascension.png"
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043a\u0430\u0440\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u0440\u0438\u0441\u043a\u0430": {
+                "item_alt_name": "cartography-scarab-of-risk",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/cartography-scarab-of-risk.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043a\u0430\u0440\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u043d\u0435\u043f\u043e\u0432\u0442\u043e\u0440\u0438\u043c\u043e\u0441\u0442\u0438": {
                 "item_alt_name": "cartography-scarab-of-singularity",
-                "img": "assets/img/Fragments & Scarabs/cartography-scarab-of-singularity.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/cartography-scarab-of-singularity.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043a\u0430\u0440\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u043e\u0441\u043a\u0432\u0435\u0440\u043d\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "cartography-scarab-of-corruption",
-                "img": "assets/img/Fragments & Scarabs/cartography-scarab-of-corruption.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/cartography-scarab-of-corruption.png"
             },
-            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043a\u0430\u0440\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u0443\u0434\u0432\u043e\u0435\u043d\u0438\u044f": {
-                "item_alt_name": "cartography-scarab-of-duplication",
-                "img": "assets/img/Fragments & Scarabs/cartography-scarab-of-duplication.png"
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043a\u0430\u0440\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432": {
+                "item_alt_name": "cartography-scarab-of-the-multitude",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/cartography-scarab-of-the-multitude.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0418\u043d\u043e\u043c\u0438\u0440\u044c\u044f": {
                 "item_alt_name": "beyond-scarab",
-                "img": "assets/img/Fragments & Scarabs/beyond-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/beyond-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0418\u043d\u043e\u043c\u0438\u0440\u044c\u044f \u043a\u0440\u043e\u0432\u043e\u043f\u043e\u0442\u0435\u0440\u0438": {
                 "item_alt_name": "beyond-scarab-of-haemophilia",
-                "img": "assets/img/Fragments & Scarabs/beyond-scarab-of-haemophilia.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/beyond-scarab-of-haemophilia.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0418\u043d\u043e\u043c\u0438\u0440\u044c\u044f \u043e\u0441\u043a\u0432\u0435\u0440\u043d\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "beyond-scarab-of-corruption",
-                "img": "assets/img/Fragments & Scarabs/beyond-scarab-of-corruption.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/beyond-scarab-of-corruption.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0418\u043d\u043e\u043c\u0438\u0440\u044c\u044f \u0432\u043e\u0437\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "beyond-scarab-of-resurgence",
-                "img": "assets/img/Fragments & Scarabs/beyond-scarab-of-resurgence.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/beyond-scarab-of-resurgence.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0418\u043d\u043e\u043c\u0438\u0440\u044c\u044f \u0432\u0442\u043e\u0440\u0436\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "beyond-scarab-of-the-invasion",
-                "img": "assets/img/Fragments & Scarabs/beyond-scarab-of-the-invasion.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/beyond-scarab-of-the-invasion.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0417\u0430\u0441\u0430\u0434\u044b": {
                 "item_alt_name": "ambush-scarab",
-                "img": "assets/img/Fragments & Scarabs/ambush-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ambush-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0417\u0430\u0441\u0430\u0434\u044b \u043f\u043e\u0442\u0430\u0439\u043d\u044b\u0445 \u043e\u0442\u0441\u0435\u043a\u043e\u0432": {
                 "item_alt_name": "ambush-scarab-of-hidden-compartments",
-                "img": "assets/img/Fragments & Scarabs/ambush-scarab-of-hidden-compartments.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ambush-scarab-of-hidden-compartments.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0417\u0430\u0441\u0430\u0434\u044b \u043c\u043e\u0433\u0443\u0449\u0435\u0441\u0442\u0432\u0430": {
                 "item_alt_name": "ambush-scarab-of-potency",
-                "img": "assets/img/Fragments & Scarabs/ambush-scarab-of-potency.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ambush-scarab-of-potency.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0417\u0430\u0441\u0430\u0434\u044b \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044f": {
                 "item_alt_name": "ambush-scarab-of-containment",
-                "img": "assets/img/Fragments & Scarabs/ambush-scarab-of-containment.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ambush-scarab-of-containment.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0417\u0430\u0441\u0430\u0434\u044b \u0440\u0430\u0437\u0431\u043e\u0440\u0447\u0438\u0432\u043e\u0441\u0442\u0438": {
                 "item_alt_name": "ambush-scarab-of-discernment",
-                "img": "assets/img/Fragments & Scarabs/ambush-scarab-of-discernment.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ambush-scarab-of-discernment.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0423\u043b\u044c\u0442\u0438\u043c\u0430\u0442\u0443\u043c\u0430": {
                 "item_alt_name": "ultimatum-scarab",
-                "img": "assets/img/Fragments & Scarabs/ultimatum-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ultimatum-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0423\u043b\u044c\u0442\u0438\u043c\u0430\u0442\u0443\u043c\u0430 \u043f\u043e\u0434\u043a\u0443\u043f\u0430": {
                 "item_alt_name": "ultimatum-scarab-of-bribing",
-                "img": "assets/img/Fragments & Scarabs/ultimatum-scarab-of-bribing.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ultimatum-scarab-of-bribing.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0423\u043b\u044c\u0442\u0438\u043c\u0430\u0442\u0443\u043c\u0430 \u043f\u043e\u0435\u0434\u0438\u043d\u043a\u0430": {
                 "item_alt_name": "ultimatum-scarab-of-dueling",
-                "img": "assets/img/Fragments & Scarabs/ultimatum-scarab-of-dueling.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ultimatum-scarab-of-dueling.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0423\u043b\u044c\u0442\u0438\u043c\u0430\u0442\u0443\u043c\u0430 \u043a\u0430\u0442\u0430\u043b\u0438\u0437\u0430": {
                 "item_alt_name": "ultimatum-scarab-of-catalysing",
-                "img": "assets/img/Fragments & Scarabs/ultimatum-scarab-of-catalysing.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ultimatum-scarab-of-catalysing.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0423\u043b\u044c\u0442\u0438\u043c\u0430\u0442\u0443\u043c\u0430 \u043d\u0430\u0447\u0435\u0440\u0442\u0430\u043d\u0438\u044f": {
                 "item_alt_name": "ultimatum-scarab-of-inscription",
-                "img": "assets/img/Fragments & Scarabs/ultimatum-scarab-of-inscription.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ultimatum-scarab-of-inscription.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u0438": {
                 "item_alt_name": "expedition-scarab",
-                "img": "assets/img/Fragments & Scarabs/expedition-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/expedition-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u0438 \u043f\u043e\u0438\u0441\u043a\u0430 \u0440\u0443\u043d": {
                 "item_alt_name": "expedition-scarab-of-runefinding",
-                "img": "assets/img/Fragments & Scarabs/expedition-scarab-of-runefinding.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/expedition-scarab-of-runefinding.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u0438 \u0432\u0435\u0440\u0438\u0437\u0438\u0435\u0432\u043e\u0439 \u043f\u044b\u043b\u0438": {
                 "item_alt_name": "expedition-scarab-of-verisium-powder",
-                "img": "assets/img/Fragments & Scarabs/expedition-scarab-of-verisium-powder.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/expedition-scarab-of-verisium-powder.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u0438 \u0441\u043a\u0430\u043b\u044c\u0434\u0430": {
                 "item_alt_name": "expedition-scarab-of-the-skald",
-                "img": "assets/img/Fragments & Scarabs/expedition-scarab-of-the-skald.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/expedition-scarab-of-the-skald.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u042d\u043a\u0441\u043f\u0435\u0434\u0438\u0446\u0438\u0438 \u0430\u0440\u0445\u0435\u043e\u043b\u043e\u0433\u0438\u0438": {
                 "item_alt_name": "expedition-scarab-of-archaeology",
-                "img": "assets/img/Fragments & Scarabs/expedition-scarab-of-archaeology.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/expedition-scarab-of-archaeology.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0414\u0435\u043b\u0438\u0440\u0438\u0443\u043c\u0430": {
                 "item_alt_name": "delirium-scarab",
-                "img": "assets/img/Fragments & Scarabs/delirium-scarab.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/delirium-scarab.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0414\u0435\u043b\u0438\u0440\u0438\u0443\u043c\u0430 \u043c\u0430\u043d\u0438\u0438": {
                 "item_alt_name": "delirium-scarab-of-mania",
-                "img": "assets/img/Fragments & Scarabs/delirium-scarab-of-mania.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/delirium-scarab-of-mania.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0414\u0435\u043b\u0438\u0440\u0438\u0443\u043c\u0430 \u043f\u0430\u0440\u0430\u043d\u043e\u0439\u0438": {
                 "item_alt_name": "delirium-scarab-of-paranoia",
-                "img": "assets/img/Fragments & Scarabs/delirium-scarab-of-paranoia.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/delirium-scarab-of-paranoia.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0414\u0435\u043b\u0438\u0440\u0438\u0443\u043c\u0430 \u043d\u0435\u0432\u0440\u043e\u0437\u043e\u0432": {
                 "item_alt_name": "delirium-scarab-of-neuroses",
-                "img": "assets/img/Fragments & Scarabs/delirium-scarab-of-neuroses.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/delirium-scarab-of-neuroses.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0414\u0435\u043b\u0438\u0440\u0438\u0443\u043c\u0430 \u0433\u0430\u043b\u043b\u044e\u0446\u0438\u043d\u0430\u0446\u0438\u0439": {
                 "item_alt_name": "delirium-scarab-of-delusions",
-                "img": "assets/img/Fragments & Scarabs/delirium-scarab-of-delusions.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/delirium-scarab-of-delusions.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0447\u0443\u0434\u043e\u0432\u0438\u0449\u043d\u044b\u0445 \u043f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0439": {
                 "item_alt_name": "scarab-of-monstrous-lineage",
-                "img": "assets/img/Fragments & Scarabs/scarab-of-monstrous-lineage.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/scarab-of-monstrous-lineage.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0430\u043d\u0442\u0430\u0433\u043e\u043d\u0438\u0441\u0442\u043e\u0432": {
                 "item_alt_name": "scarab-of-adversaries",
-                "img": "assets/img/Fragments & Scarabs/scarab-of-adversaries.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/scarab-of-adversaries.png"
             },
-            "\u0417\u0430\u0433\u0430\u0434\u043e\u0447\u043d\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439": {
-                "item_alt_name": "mysterious-scarab",
-                "img": "assets/img/Fragments & Scarabs/mysterious-scarab.png"
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0431\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u0438": {
+                "item_alt_name": "scarab-of-divinity",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/scarab-of-divinity.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0437\u0430\u0442\u0440\u0430\u0432\u043b\u0435\u043d\u043d\u044b\u0445 \u043f\u0440\u0435\u0434\u0430\u0442\u0435\u043b\u0435\u0439": {
                 "item_alt_name": "scarab-of-hunted-traitors",
-                "img": "assets/img/Fragments & Scarabs/scarab-of-hunted-traitors.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/scarab-of-hunted-traitors.png"
             },
             "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0441\u0442\u0430\u0431\u0438\u043b\u044c\u043d\u043e\u0441\u0442\u0438": {
                 "item_alt_name": "scarab-of-stability",
-                "img": "assets/img/Fragments & Scarabs/scarab-of-stability.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/scarab-of-stability.png"
+            },
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u0443\u044e\u0449\u0435\u0433\u043e": {
+                "item_alt_name": "scarab-of-the-commander",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/scarab-of-the-commander.png"
+            },
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u044d\u0432\u043e\u043b\u044e\u0446\u0438\u0438": {
+                "item_alt_name": "scarab-of-evolution",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/scarab-of-evolution.png"
+            },
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043e\u0433\u043e\u043d\u044c\u043a\u043e\u0432": {
+                "item_alt_name": "scarab-of-wisps",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/scarab-of-wisps.png"
+            },
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0440\u0430\u0437\u0434\u0432\u043e\u0435\u043d\u0438\u044f": {
+                "item_alt_name": "scarab-of-bisection",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/scarab-of-bisection.png"
+            },
+            "\u0421\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0441\u0438\u044f\u044e\u0449\u0438\u0445 \u0431\u0443\u0440\u044c": {
+                "item_alt_name": "scarab-of-radiant-storms",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/scarab-of-radiant-storms.png"
             },
             "\u0420\u043e\u0433\u0430\u0442\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0420\u043e\u0434\u043e\u0441\u043b\u043e\u0432\u043d\u044b\u0445": {
                 "item_alt_name": "horned-scarab-of-bloodlines",
-                "img": "assets/img/Fragments & Scarabs/horned-scarab-of-bloodlines.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/horned-scarab-of-bloodlines.png"
             },
             "\u0420\u043e\u0433\u0430\u0442\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041d\u0435\u043c\u0435\u0437\u0438\u0434\u044b": {
                 "item_alt_name": "horned-scarab-of-nemeses",
-                "img": "assets/img/Fragments & Scarabs/horned-scarab-of-nemeses.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/horned-scarab-of-nemeses.png"
             },
             "\u0420\u043e\u0433\u0430\u0442\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "horned-scarab-of-preservation",
-                "img": "assets/img/Fragments & Scarabs/horned-scarab-of-preservation.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/horned-scarab-of-preservation.png"
             },
             "\u0420\u043e\u0433\u0430\u0442\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043f\u0440\u043e\u0431\u0443\u0436\u0434\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "horned-scarab-of-awakening",
-                "img": "assets/img/Fragments & Scarabs/horned-scarab-of-awakening.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/horned-scarab-of-awakening.png"
             },
             "\u0420\u043e\u0433\u0430\u0442\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u0439": {
                 "item_alt_name": "horned-scarab-of-tradition",
-                "img": "assets/img/Fragments & Scarabs/horned-scarab-of-tradition.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/horned-scarab-of-tradition.png"
             },
             "\u0420\u043e\u0433\u0430\u0442\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u043f\u0435\u0440\u0435\u043b\u0438\u0432\u043e\u0432": {
                 "item_alt_name": "horned-scarab-of-glittering",
-                "img": "assets/img/Fragments & Scarabs/horned-scarab-of-glittering.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/horned-scarab-of-glittering.png"
             },
             "\u0420\u043e\u0433\u0430\u0442\u044b\u0439 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0439 \u041f\u0430\u043d\u0434\u0435\u043c\u043e\u043d\u0438\u0443\u043c\u0430": {
                 "item_alt_name": "horned-scarab-of-pandemonium",
-                "img": "assets/img/Fragments & Scarabs/horned-scarab-of-pandemonium.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/horned-scarab-of-pandemonium.png"
+            },
+            "\u0412\u0435\u043b\u0435\u043d\u0438\u0435 \u041c\u0435\u0439\u0432\u0435\u043d": {
+                "item_alt_name": "the-mavens-writ",
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/the-mavens-writ.png"
             },
             "\u0418\u0437\u0432\u0438\u0432\u0430\u044e\u0449\u0435\u0435\u0441\u044f \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435": {
                 "item_alt_name": "writhing-invitation",
-                "img": "assets/img/Fragments & Scarabs/writhing-invitation.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/writhing-invitation.png"
             },
             "\u041f\u043e\u043b\u044f\u0440\u043d\u043e\u0435 \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435": {
                 "item_alt_name": "polaric-invitation",
-                "img": "assets/img/Fragments & Scarabs/polaric-invitation.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/polaric-invitation.png"
             },
             "\u0421\u0438\u044f\u044e\u0449\u0435\u0435 \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435": {
                 "item_alt_name": "incandescent-invitation",
-                "img": "assets/img/Fragments & Scarabs/incandescent-invitation.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/incandescent-invitation.png"
             },
             "\u041e\u0441\u043a\u043e\u043b\u043e\u043a \u041a\u0441\u043e\u0444\u0430": {
                 "item_alt_name": "splinter-xoph",
-                "img": "assets/img/Fragments & Scarabs/splinter-xoph.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/splinter-xoph.png"
             },
             "\u041e\u0441\u043a\u043e\u043b\u043e\u043a \u0422\u0443\u043b": {
                 "item_alt_name": "splinter-tul",
-                "img": "assets/img/Fragments & Scarabs/splinter-tul.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/splinter-tul.png"
             },
             "\u041e\u0441\u043a\u043e\u043b\u043e\u043a \u0418\u0448": {
                 "item_alt_name": "splinter-esh",
-                "img": "assets/img/Fragments & Scarabs/splinter-esh.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/splinter-esh.png"
             },
             "\u041e\u0441\u043a\u043e\u043b\u043e\u043a \u0423\u0443\u043b-\u041d\u0435\u0442\u043e\u043b": {
                 "item_alt_name": "splinter-uul",
-                "img": "assets/img/Fragments & Scarabs/splinter-uul.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/splinter-uul.png"
             },
             "\u041e\u0441\u043a\u043e\u043b\u043e\u043a \u0427\u0430\u044e\u043b\u044b": {
                 "item_alt_name": "splinter-chayula",
-                "img": "assets/img/Fragments & Scarabs/splinter-chayula.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/splinter-chayula.png"
             },
             "\u0412\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u043e\u0441\u043a\u043e\u043b\u043e\u043a \u0412\u0435\u0447\u043d\u043e\u0439 \u0418\u043c\u043f\u0435\u0440\u0438\u0438": {
                 "item_alt_name": "timeless-eternal-empire-splinter",
-                "img": "assets/img/Fragments & Scarabs/timeless-eternal-empire-splinter.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/timeless-eternal-empire-splinter.png"
             },
             "\u0412\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u043e\u0441\u043a\u043e\u043b\u043e\u043a \u043a\u0430\u0440\u0443\u0438": {
                 "item_alt_name": "timeless-karui-splinter",
-                "img": "assets/img/Fragments & Scarabs/timeless-karui-splinter.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/timeless-karui-splinter.png"
             },
             "\u0412\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u043e\u0441\u043a\u043e\u043b\u043e\u043a \u0432\u0430\u0430\u043b": {
                 "item_alt_name": "timeless-vaal-splinter",
-                "img": "assets/img/Fragments & Scarabs/timeless-vaal-splinter.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/timeless-vaal-splinter.png"
             },
             "\u0412\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u043e\u0441\u043a\u043e\u043b\u043e\u043a \u0445\u0440\u0430\u043c\u043e\u0432\u043d\u0438\u043a\u043e\u0432": {
                 "item_alt_name": "timeless-templar-splinter",
-                "img": "assets/img/Fragments & Scarabs/timeless-templar-splinter.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/timeless-templar-splinter.png"
             },
             "\u0412\u043d\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u043e\u0441\u043a\u043e\u043b\u043e\u043a \u043c\u0430\u0440\u0430\u043a\u0435\u0442\u043e\u0432": {
                 "item_alt_name": "timeless-maraketh-splinter",
-                "img": "assets/img/Fragments & Scarabs/timeless-maraketh-splinter.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/timeless-maraketh-splinter.png"
             },
             "\u041e\u0441\u043a\u043e\u043b\u043e\u043a \u0421\u0438\u043c\u0443\u043b\u044f\u043a\u0440\u0430": {
                 "item_alt_name": "simulacrum-splinter",
-                "img": "assets/img/Fragments & Scarabs/simulacrum-splinter.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/simulacrum-splinter.png"
             },
             "\u0421\u0435\u0440\u043f\u043e\u0432\u0438\u0434\u043d\u044b\u0439 \u043e\u0441\u043a\u043e\u043b\u043e\u043a": {
                 "item_alt_name": "crescent-splinter",
-                "img": "assets/img/Fragments & Scarabs/crescent-splinter.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/crescent-splinter.png"
             },
             "\u0420\u0438\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0441\u043a\u043e\u043b\u043e\u043a": {
                 "item_alt_name": "ritual-splinter",
-                "img": "assets/img/Fragments & Scarabs/ritual-splinter.png"
+                "img": "assets/img/\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b \u0438 \u0441\u043a\u0430\u0440\u0430\u0431\u0435\u0438/ritual-splinter.png"
             }
         },
-        "Tattoos & Omens": {
+        "\u041a\u0430\u043b\u0433\u0443\u0443\u0440\u0430\u043d\u0441\u043a\u0438\u0435 \u0440\u0443\u043d\u044b": {
+            "\u0420\u0443\u043d\u0430 \u0421\u043e\u043b\u043d\u0446\u0430": {
+                "item_alt_name": "sun-rune",
+                "img": "assets/img/\u041a\u0430\u043b\u0433\u0443\u0443\u0440\u0430\u043d\u0441\u043a\u0438\u0435 \u0440\u0443\u043d\u044b/sun-rune.png"
+            },
+            "\u0420\u0443\u043d\u0430 \u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0430": {
+                "item_alt_name": "bound-rune",
+                "img": "assets/img/\u041a\u0430\u043b\u0433\u0443\u0443\u0440\u0430\u043d\u0441\u043a\u0438\u0435 \u0440\u0443\u043d\u044b/bound-rune.png"
+            },
+            "\u0420\u0443\u043d\u0430 \u0416\u0438\u0437\u043d\u0438": {
+                "item_alt_name": "life-rune",
+                "img": "assets/img/\u041a\u0430\u043b\u0433\u0443\u0443\u0440\u0430\u043d\u0441\u043a\u0438\u0435 \u0440\u0443\u043d\u044b/life-rune.png"
+            },
+            "\u0420\u0443\u043d\u0430 \u0412\u043e\u0439\u043d\u044b": {
+                "item_alt_name": "war-rune",
+                "img": "assets/img/\u041a\u0430\u043b\u0433\u0443\u0443\u0440\u0430\u043d\u0441\u043a\u0438\u0435 \u0440\u0443\u043d\u044b/war-rune.png"
+            },
+            "\u0420\u0443\u043d\u0430 \u0420\u0435\u043a\u0438": {
+                "item_alt_name": "river-rune",
+                "img": "assets/img/\u041a\u0430\u043b\u0433\u0443\u0443\u0440\u0430\u043d\u0441\u043a\u0438\u0435 \u0440\u0443\u043d\u044b/river-rune.png"
+            },
+            "\u0420\u0443\u043d\u0430 \u0429\u0435\u0434\u0440\u043e\u0441\u0442\u0438": {
+                "item_alt_name": "bounty-rune",
+                "img": "assets/img/\u041a\u0430\u043b\u0433\u0443\u0443\u0440\u0430\u043d\u0441\u043a\u0438\u0435 \u0440\u0443\u043d\u044b/bounty-rune.png"
+            },
+            "\u0420\u0443\u043d\u0430 \u0421\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0438\u044f": {
+                "item_alt_name": "journey-rune",
+                "img": "assets/img/\u041a\u0430\u043b\u0433\u0443\u0443\u0440\u0430\u043d\u0441\u043a\u0438\u0435 \u0440\u0443\u043d\u044b/journey-rune.png"
+            },
+            "\u0420\u0443\u043d\u0430 \u0413\u043e\u0440\u044b": {
+                "item_alt_name": "mountain-rune",
+                "img": "assets/img/\u041a\u0430\u043b\u0433\u0443\u0443\u0440\u0430\u043d\u0441\u043a\u0438\u0435 \u0440\u0443\u043d\u044b/mountain-rune.png"
+            },
+            "\u0420\u0443\u043d\u0430 \u0412\u0440\u0435\u043c\u0435\u043d\u0438": {
+                "item_alt_name": "time-rune",
+                "img": "assets/img/\u041a\u0430\u043b\u0433\u0443\u0443\u0440\u0430\u043d\u0441\u043a\u0438\u0435 \u0440\u0443\u043d\u044b/time-rune.png"
+            },
+            "\u0420\u0443\u043d\u0430 \u0421\u0438\u043b\u044b": {
+                "item_alt_name": "power-rune",
+                "img": "assets/img/\u041a\u0430\u043b\u0433\u0443\u0443\u0440\u0430\u043d\u0441\u043a\u0438\u0435 \u0440\u0443\u043d\u044b/power-rune.png"
+            }
+        },
+        "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f": {
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u041e\u0433\u043d\u0435\u043d\u043d\u043e\u0433\u043e \u0445\u043e\u0434\u043e\u043a\u0430 \u041d\u0433\u0430\u043c\u0430\u0445\u0443": {
                 "item_alt_name": "tattoo-of-the-ngamahu-firewalker",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-ngamahu-firewalker.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-ngamahu-firewalker.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0428\u0430\u043c\u0430\u043d\u0430 \u041d\u0433\u0430\u043c\u0430\u0445\u0443": {
                 "item_alt_name": "tattoo-of-the-ngamahu-shaman",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-ngamahu-shaman.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-ngamahu-shaman.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0412\u043e\u0438\u043d\u0430 \u041d\u0433\u0430\u043c\u0430\u0445\u0443": {
                 "item_alt_name": "tattoo-of-the-ngamahu-warrior",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-ngamahu-warrior.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-ngamahu-warrior.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0417\u0430\u0447\u0438\u043d\u0449\u0438\u043a\u0430 \u0432\u043e\u0439\u043d\u044b \u041d\u0433\u0430\u043c\u0430\u0445\u0443": {
                 "item_alt_name": "tattoo-of-the-ngamahu-warmonger",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-ngamahu-warmonger.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-ngamahu-warmonger.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0420\u0435\u0437\u0447\u0438\u043a\u0430 \u043f\u043e \u0434\u0435\u0440\u0435\u0432\u0443 \u041d\u0433\u0430\u043c\u0430\u0445\u0443": {
                 "item_alt_name": "tattoo-of-the-ngamahu-woodcarver",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-ngamahu-woodcarver.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-ngamahu-woodcarver.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u041a\u0440\u043e\u0432\u043e\u043f\u0438\u0439\u0446\u044b \u041a\u0438\u0442\u0430\u0432\u044b": {
                 "item_alt_name": "tattoo-of-the-kitava-blood-drinker",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-kitava-blood-drinker.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-kitava-blood-drinker.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0421\u043c\u0443\u0442\u044c\u044f\u043d\u0430 \u041a\u0438\u0442\u0430\u0432\u044b": {
                 "item_alt_name": "tattoo-of-the-kitava-rebel",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-kitava-rebel.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-kitava-rebel.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0412\u043e\u0438\u043d\u0430 \u041a\u0438\u0442\u0430\u0432\u044b": {
                 "item_alt_name": "tattoo-of-the-kitava-warrior",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-kitava-warrior.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-kitava-warrior.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u041f\u043e\u0436\u0438\u0440\u0430\u0442\u0435\u043b\u044f \u0441\u0435\u0440\u0434\u0435\u0446 \u041a\u0438\u0442\u0430\u0432\u044b": {
                 "item_alt_name": "tattoo-of-the-kitava-heart-eater",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-kitava-heart-eater.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-kitava-heart-eater.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0428\u0430\u043c\u0430\u043d\u0430 \u041a\u0438\u0442\u0430\u0432\u044b": {
                 "item_alt_name": "tattoo-of-the-kitava-shaman",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-kitava-shaman.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-kitava-shaman.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0428\u0430\u043c\u0430\u043d\u0430 \u0422\u0443\u043a\u043e\u0445\u0430\u043c\u044b": {
                 "item_alt_name": "tattoo-of-the-tukohama-shaman",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tukohama-shaman.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tukohama-shaman.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0412\u043e\u0438\u043d\u0430 \u0422\u0443\u043a\u043e\u0445\u0430\u043c\u044b": {
                 "item_alt_name": "tattoo-of-the-tukohama-warrior",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tukohama-warrior.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tukohama-warrior.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u041f\u043e\u0435\u0434\u0438\u043d\u0449\u0438\u043a\u0430 \u0422\u0443\u043a\u043e\u0445\u0430\u043c\u044b": {
                 "item_alt_name": "tattoo-of-the-tukohama-brawler",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tukohama-brawler.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tukohama-brawler.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0417\u0430\u0447\u0438\u043d\u0449\u0438\u043a\u0430 \u0432\u043e\u0439\u043d\u044b \u0422\u0443\u043a\u043e\u0445\u0430\u043c\u044b": {
                 "item_alt_name": "tattoo-of-the-tukohama-warmonger",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tukohama-warmonger.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tukohama-warmonger.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0413\u043b\u0430\u0448\u0430\u0442\u0430\u044f \u0432\u043e\u0439\u043d\u044b \u0422\u0443\u043a\u043e\u0445\u0430\u043c\u044b": {
                 "item_alt_name": "tattoo-of-the-tukohama-warcaller",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tukohama-warcaller.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tukohama-warcaller.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0412\u043e\u0438\u043d\u0430 \u0420\u043e\u043d\u0433\u043e\u043a\u0443\u0440\u0430\u0438": {
                 "item_alt_name": "tattoo-of-the-rongokurai-warrior",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-rongokurai-warrior.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-rongokurai-warrior.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0413\u0440\u043e\u043c\u0438\u043b\u044b \u0420\u043e\u043d\u0433\u043e\u043a\u0443\u0440\u0430\u0438": {
                 "item_alt_name": "tattoo-of-the-rongokurai-brute",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-rongokurai-brute.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-rongokurai-brute.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0413\u043e\u043b\u0438\u0430\u0444\u0430 \u0420\u043e\u043d\u0433\u043e\u043a\u0443\u0440\u0430\u0438": {
                 "item_alt_name": "tattoo-of-the-rongokurai-goliath",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-rongokurai-goliath.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-rongokurai-goliath.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0427\u0435\u0440\u0435\u043f\u0430\u0445\u0438 \u0420\u043e\u043d\u0433\u043e\u043a\u0443\u0440\u0430\u0438": {
                 "item_alt_name": "tattoo-of-the-rongokurai-turtle",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-rongokurai-turtle.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-rongokurai-turtle.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0421\u0442\u0440\u0430\u0436\u043d\u0438\u043a\u0430 \u0420\u043e\u043d\u0433\u043e\u043a\u0443\u0440\u0430\u0438": {
                 "item_alt_name": "tattoo-of-the-rongokurai-guard",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-rongokurai-guard.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-rongokurai-guard.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0422\u0430\u043d\u0446\u0443\u044e\u0449\u0435\u0433\u043e \u0441 \u043a\u043b\u0438\u043d\u043a\u0430\u043c\u0438 \u0422\u0430\u0441\u0430\u043b\u0438\u043e": {
                 "item_alt_name": "tattoo-of-the-tasalio-bladedancer",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tasalio-bladedancer.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tasalio-bladedancer.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0412\u043e\u043b\u043d\u043e\u0440\u0435\u0437\u0430 \u0422\u0430\u0441\u0430\u043b\u0438\u043e": {
                 "item_alt_name": "tattoo-of-the-tasalio-tideshifter",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tasalio-tideshifter.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tasalio-tideshifter.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0428\u0430\u043c\u0430\u043d\u0430 \u0422\u0430\u0441\u0430\u043b\u0438\u043e": {
                 "item_alt_name": "tattoo-of-the-tasalio-shaman",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tasalio-shaman.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tasalio-shaman.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0412\u043e\u0438\u043d\u0430 \u0422\u0430\u0441\u0430\u043b\u0438\u043e": {
                 "item_alt_name": "tattoo-of-the-tasalio-warrior",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tasalio-warrior.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tasalio-warrior.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0420\u0430\u0437\u0432\u0435\u0434\u0447\u0438\u043a\u0430 \u0422\u0430\u0441\u0430\u043b\u0438\u043e": {
                 "item_alt_name": "tattoo-of-the-tasalio-scout",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tasalio-scout.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tasalio-scout.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0425\u0440\u0430\u043d\u0438\u0442\u0435\u043b\u044f \u043b\u0443\u043d\u044b \u0410\u0440\u043e\u0445\u043e\u043d\u0433\u0443\u0438": {
                 "item_alt_name": "tattoo-of-the-arohongui-moonwarden",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-arohongui-moonwarden.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-arohongui-moonwarden.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0420\u0430\u0437\u0432\u0435\u0434\u0447\u0438\u043a\u0430 \u0410\u0440\u043e\u0445\u043e\u043d\u0433\u0443\u0438": {
                 "item_alt_name": "tattoo-of-the-arohongui-scout",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-arohongui-scout.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-arohongui-scout.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0412\u043e\u0438\u043d\u0430 \u0410\u0440\u043e\u0445\u043e\u043d\u0433\u0443\u0438": {
                 "item_alt_name": "tattoo-of-the-arohongui-warrior",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-arohongui-warrior.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-arohongui-warrior.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0417\u0430\u0447\u0438\u043d\u0449\u0438\u043a\u0430 \u0432\u043e\u0439\u043d\u044b \u0410\u0440\u043e\u0445\u043e\u043d\u0433\u0443\u0438": {
                 "item_alt_name": "tattoo-of-the-arohongui-warmonger",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-arohongui-warmonger.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-arohongui-warmonger.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0428\u0430\u043c\u0430\u043d\u0430 \u0410\u0440\u043e\u0445\u043e\u043d\u0433\u0443\u0438": {
                 "item_alt_name": "tattoo-of-the-arohongui-shaman",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-arohongui-shaman.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-arohongui-shaman.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0420\u0430\u0437\u0432\u0435\u0434\u0447\u0438\u043a\u0430 \u0420\u0430\u043c\u0430\u043a\u043e": {
                 "item_alt_name": "tattoo-of-the-ramako-scout",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-ramako-scout.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-ramako-scout.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u041b\u0443\u0447\u043d\u0438\u043a\u0430 \u0420\u0430\u043c\u0430\u043a\u043e": {
                 "item_alt_name": "tattoo-of-the-ramako-archer",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-ramako-archer.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-ramako-archer.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0421\u043d\u0430\u0439\u043f\u0435\u0440\u0430 \u0420\u0430\u043c\u0430\u043a\u043e": {
                 "item_alt_name": "tattoo-of-the-ramako-sniper",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-ramako-sniper.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-ramako-sniper.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0413\u043e\u043d\u0446\u0430 \u0420\u0430\u043c\u0430\u043a\u043e": {
                 "item_alt_name": "tattoo-of-the-ramako-fleetfoot",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-ramako-fleetfoot.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-ramako-fleetfoot.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0428\u0430\u043c\u0430\u043d\u0430 \u0420\u0430\u043c\u0430\u043a\u043e": {
                 "item_alt_name": "tattoo-of-the-ramako-shaman",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-ramako-shaman.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-ramako-shaman.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0412\u043e\u0438\u043d\u0430 \u0425\u0438\u043d\u0435\u043a\u043e\u0440\u044b": {
                 "item_alt_name": "tattoo-of-the-hinekora-warrior",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-hinekora-warrior.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-hinekora-warrior.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0421\u0442\u0440\u0430\u0436\u0430 \u0441\u043c\u0435\u0440\u0442\u0438 \u0425\u0438\u043d\u0435\u043a\u043e\u0440\u044b": {
                 "item_alt_name": "tattoo-of-the-hinekora-deathwarden",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-hinekora-deathwarden.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-hinekora-deathwarden.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0428\u0430\u043c\u0430\u043d\u0430 \u0425\u0438\u043d\u0435\u043a\u043e\u0440\u044b": {
                 "item_alt_name": "tattoo-of-the-hinekora-shaman",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-hinekora-shaman.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-hinekora-shaman.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0421\u043a\u0430\u0437\u0438\u0442\u0435\u043b\u044f \u0425\u0438\u043d\u0435\u043a\u043e\u0440\u044b": {
                 "item_alt_name": "tattoo-of-the-hinekora-storyteller",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-hinekora-storyteller.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-hinekora-storyteller.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0417\u0430\u0447\u0438\u043d\u0449\u0438\u043a\u0430 \u0432\u043e\u0439\u043d\u044b \u0425\u0438\u043d\u0435\u043a\u043e\u0440\u044b": {
                 "item_alt_name": "tattoo-of-the-hinekora-warmonger",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-hinekora-warmonger.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-hinekora-warmonger.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u041d\u0430\u0442\u0443\u0440\u0430\u043b\u0438\u0441\u0442\u0430 \u0422\u0430\u0445\u043e\u0430": {
                 "item_alt_name": "tattoo-of-the-tawhoa-naturalist",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tawhoa-naturalist.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tawhoa-naturalist.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0420\u0430\u0437\u0432\u0435\u0434\u0447\u0438\u043a\u0430 \u0422\u0430\u0445\u043e\u0430": {
                 "item_alt_name": "tattoo-of-the-tawhoa-scout",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tawhoa-scout.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tawhoa-scout.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0412\u043e\u0438\u043d\u0430 \u0422\u0430\u0445\u043e\u0430": {
                 "item_alt_name": "tattoo-of-the-tawhoa-warrior",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tawhoa-warrior.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tawhoa-warrior.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0422\u0440\u0430\u0432\u043d\u0438\u043a\u0430 \u0422\u0430\u0445\u043e\u0430": {
                 "item_alt_name": "tattoo-of-the-tawhoa-herbalist",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tawhoa-herbalist.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tawhoa-herbalist.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0428\u0430\u043c\u0430\u043d\u0430 \u0422\u0430\u0445\u043e\u0430": {
                 "item_alt_name": "tattoo-of-the-tawhoa-shaman",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-tawhoa-shaman.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-tawhoa-shaman.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u041d\u0430\u0435\u0437\u0434\u043d\u0438\u043a\u0430 \u0431\u0443\u0440\u0438 \u0412\u0430\u043b\u0430\u043a\u043e": {
                 "item_alt_name": "tattoo-of-the-valako-stormrider",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-valako-stormrider.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-valako-stormrider.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0420\u0430\u0437\u0432\u0435\u0434\u0447\u0438\u043a\u0430 \u0412\u0430\u043b\u0430\u043a\u043e": {
                 "item_alt_name": "tattoo-of-the-valako-scout",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-valako-scout.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-valako-scout.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0412\u043e\u0438\u043d\u0430 \u0412\u0430\u043b\u0430\u043a\u043e": {
                 "item_alt_name": "tattoo-of-the-valako-warrior",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-valako-warrior.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-valako-warrior.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0429\u0438\u0442\u043e\u043d\u043e\u0441\u0446\u0430 \u0412\u0430\u043b\u0430\u043a\u043e": {
                 "item_alt_name": "tattoo-of-the-valako-shieldbearer",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-valako-shieldbearer.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-valako-shieldbearer.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0428\u0430\u043c\u0430\u043d\u0430 \u0412\u0430\u043b\u0430\u043a\u043e": {
                 "item_alt_name": "tattoo-of-the-valako-shaman",
-                "img": "assets/img/Tattoos & Omens/tattoo-of-the-valako-shaman.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/tattoo-of-the-valako-shaman.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0438\u044f \u0442\u0435\u043b\u0430": {
                 "item_alt_name": "journey-tattoo-of-the-body",
-                "img": "assets/img/Tattoos & Omens/journey-tattoo-of-the-body.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/journey-tattoo-of-the-body.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0438\u044f \u0440\u0430\u0437\u0443\u043c\u0430": {
                 "item_alt_name": "journey-tattoo-of-the-mind",
-                "img": "assets/img/Tattoos & Omens/journey-tattoo-of-the-mind.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/journey-tattoo-of-the-mind.png"
             },
             "\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0430 \u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0438\u044f \u0434\u0443\u0448\u0438": {
                 "item_alt_name": "journey-tattoo-of-the-soul",
-                "img": "assets/img/Tattoos & Omens/journey-tattoo-of-the-soul.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/journey-tattoo-of-the-soul.png"
             },
             "\u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0438\u0437\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "omen-of-amelioration",
-                "img": "assets/img/Tattoos & Omens/omen-of-amelioration.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/omen-of-amelioration.png"
             },
             "\u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0432\u043e\u0437\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "omen-of-return",
-                "img": "assets/img/Tattoos & Omens/omen-of-return.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/omen-of-return.png"
             },
             "\u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0442\u0430\u043d\u0446\u0430 \u0441\u043e \u0441\u043c\u0435\u0440\u0442\u044c\u044e": {
                 "item_alt_name": "omen-of-death-dancing",
-                "img": "assets/img/Tattoos & Omens/omen-of-death-dancing.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/omen-of-death-dancing.png"
             },
             "\u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0432\u043e\u0441\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "omen-of-refreshment",
-                "img": "assets/img/Tattoos & Omens/omen-of-refreshment.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/omen-of-refreshment.png"
             },
             "\u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u041f\u043e\u0436\u0438\u0440\u0430\u0442\u0435\u043b\u044f \u0434\u0443\u0448": {
                 "item_alt_name": "omen-of-the-soul-devourer",
-                "img": "assets/img/Tattoos & Omens/omen-of-the-soul-devourer.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/omen-of-the-soul-devourer.png"
             },
             "\u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0443\u0434\u0430\u0447\u0438": {
                 "item_alt_name": "omen-of-fortune",
-                "img": "assets/img/Tattoos & Omens/omen-of-fortune.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/omen-of-fortune.png"
             },
             "\u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0437\u043b\u0430\u0442\u043e\u043a\u0443\u0437\u043d\u0435\u0446\u0430": {
                 "item_alt_name": "omen-of-the-jeweller",
-                "img": "assets/img/Tattoos & Omens/omen-of-the-jeweller.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/omen-of-the-jeweller.png"
             },
             "\u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0441\u0432\u044f\u0437\u0435\u0439": {
                 "item_alt_name": "omen-of-connections",
-                "img": "assets/img/Tattoos & Omens/omen-of-connections.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/omen-of-connections.png"
             },
             "\u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u043e\u0431\u0435\u043b\u0435\u043d\u0438\u044f": {
                 "item_alt_name": "omen-of-blanching",
-                "img": "assets/img/Tattoos & Omens/omen-of-blanching.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/omen-of-blanching.png"
             },
             "\u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0430\u0434\u0440\u0435\u043d\u0430\u043b\u0438\u043d\u0430": {
                 "item_alt_name": "omen-of-adrenaline",
-                "img": "assets/img/Tattoos & Omens/omen-of-adrenaline.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/omen-of-adrenaline.png"
             },
             "\u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0412\u0440\u0430\u0442 \u0421\u043c\u0435\u0440\u0442\u0438": {
                 "item_alt_name": "omen-of-deaths-door",
-                "img": "assets/img/Tattoos & Omens/omen-of-deaths-door.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/omen-of-deaths-door.png"
             },
             "\u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u0438\u044f": {
                 "item_alt_name": "omen-of-brilliance",
-                "img": "assets/img/Tattoos & Omens/omen-of-brilliance.png"
+                "img": "assets/img/\u0422\u0430\u0442\u0443\u0438\u0440\u043e\u0432\u043a\u0438 \u0438 \u043f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u044f/omen-of-brilliance.png"
             }
         },
         "\u0422\u043e\u043c\u0430 \u0438 \u0440\u0435\u043b\u0438\u043a\u0432\u0438\u0438 \u0421\u0432\u044f\u0442\u0438\u043b\u0438\u0449\u0430": {
@@ -4996,6 +5220,10 @@
                 "item_alt_name": "golden-oil",
                 "img": "assets/img/\u041c\u0430\u0441\u043b\u0430 \u0438 \u044d\u043a\u0441\u0442\u0440\u0430\u043a\u0442\u043e\u0440/golden-oil.png"
             },
+            "\u0420\u0430\u0434\u0443\u0436\u043d\u043e\u0435 \u043c\u0430\u0441\u043b\u043e": {
+                "item_alt_name": "prismatic-oil",
+                "img": "assets/img/\u041c\u0430\u0441\u043b\u0430 \u0438 \u044d\u043a\u0441\u0442\u0440\u0430\u043a\u0442\u043e\u0440/prismatic-oil.png"
+            },
             "\u0417\u0430\u0440\u0430\u0436\u0451\u043d\u043d\u043e\u0435 \u043c\u0430\u0441\u043b\u043e": {
                 "item_alt_name": "tainted-oil",
                 "img": "assets/img/\u041c\u0430\u0441\u043b\u0430 \u0438 \u044d\u043a\u0441\u0442\u0440\u0430\u043a\u0442\u043e\u0440/tainted-oil.png"
@@ -5184,9 +5412,9 @@
                 "item_alt_name": "bound-fossil",
                 "img": "assets/img/\u0418\u0441\u043a\u043e\u043f\u0430\u0435\u043c\u044b\u0435 \u0438 \u0440\u0435\u0437\u043e\u043d\u0430\u0442\u043e\u0440\u044b/bound-fossil.png"
             },
-            "\u0411\u0435\u0437\u0443\u043f\u0440\u0435\u0447\u043d\u043e\u0435 \u0438\u0441\u043a\u043e\u043f\u0430\u0435\u043c\u043e\u0435": {
-                "item_alt_name": "perfect-fossil",
-                "img": "assets/img/\u0418\u0441\u043a\u043e\u043f\u0430\u0435\u043c\u044b\u0435 \u0438 \u0440\u0435\u0437\u043e\u043d\u0430\u0442\u043e\u0440\u044b/perfect-fossil.png"
+            "\u0411\u043e\u0433\u0430\u0442\u043e\u0435 \u0438\u0441\u043a\u043e\u043f\u0430\u0435\u043c\u043e\u0435": {
+                "item_alt_name": "opulent-fossil",
+                "img": "assets/img/\u0418\u0441\u043a\u043e\u043f\u0430\u0435\u043c\u044b\u0435 \u0438 \u0440\u0435\u0437\u043e\u043d\u0430\u0442\u043e\u0440\u044b/opulent-fossil.png"
             },
             "\u041f\u0440\u043e\u0432\u043e\u0440\u043d\u043e\u0435 \u0438\u0441\u043a\u043e\u043f\u0430\u0435\u043c\u043e\u0435": {
                 "item_alt_name": "deft-fossil",
@@ -5428,7 +5656,7 @@
             }
         },
         "\u0417\u0432\u0435\u0440\u0438": {
-            "\u041b\u044e\u0431\u043e\u0439 \u0436\u0435\u043b\u0442\u044b\u0439 \u0437\u0432\u0435\u0440\u044c": {
+            "\u0416\u0435\u043b\u0442\u044b\u0439 \u0437\u0432\u0435\u0440\u044c": {
                 "item_alt_name": "beast",
                 "img": "None"
             },
